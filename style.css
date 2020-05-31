@@ -27,11 +27,8 @@ body {
 nav.navbar.navbar-expand-sm {
 	text-align: center;
   display: flex;
-  position: fixed;
   top: 0;
   width: 100%;
-  position: fixed;
-  z-index: 1000000;
   background-color: transparent;
 }
 nav ul {
