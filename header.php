@@ -24,7 +24,7 @@
 <body>
 <header>
 
-  <nav class="navbar navbar-expand-sm">
+  <nav class="navbar navbar-expand-sm stroke">
   <a class="navbar-brand" href="#">
     <?php if(get_header_image() == '') {?>
         <h1><a href="<?php echo get_home_url();?>"><?php bloginfo('name');?></a></h1><?php
@@ -37,13 +37,13 @@
   </button>
   <div class="collapse navbar-collapse" id="navbar-list-2">
     <div class="navbar-nav">
-      <?php
-        if(has_nav_menu('top-menu')) {
-          wp_nav_menu(array('theme_location' => 'top-menu', 'container_class' => 'top-menu-class'));
-        } else{
-          echo "Please select a top menu through the dashboard";
-        }
-      ?>
+        <?php
+          if(has_nav_menu('top-menu')) {
+            wp_nav_menu(array('theme_location' => 'top-menu', 'container_class' => 'top-menu-class'));
+          } else{
+            echo "Please select a top menu through the dashboard";
+          }
+        ?>
     </div>
   </div>
 </nav>
