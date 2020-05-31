@@ -318,3 +318,33 @@ img.about.card-img {
 .progress {
 	background-color: #f3f3f3;
 }
+.container-fluid {
+  background-color: white;
+  padding-left: 0;
+  padding-right: 0;
+	text-align: center;
+}
+h1, h2, a {
+  font-family: 'Playfair Display', serif;
+	font-weight: 700;
+  color: #314247;
+}
+h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  color: #314247;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+  color: #314247;
+}
+
+a.btn.btn-primary.btn-lg {
+  background-color: #647973;
+  border: none;
+  border-radius: 0;
+  color: #f7f7f7;
+  margin-top: 5%;
+}
+a.btn.btn-primary.btn-lg:hover {
+  background-color: #cca4a6;
+}

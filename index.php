@@ -40,8 +40,6 @@
     	</div>
     	</main>
 
-
-
     <!--======================= About ====================-->
     	<div class="container">
     		<div class="card mt-5 mb-5 border-0" style="max-width: 100%;">
@@ -129,12 +127,5 @@
     </div>
 
     <!--======================= Resume ====================-->
-    <div class="row d-flex justify-content-center">
-    <div class="card resume mt-5" style="max-width: 75%;">
-    	<a href="img/resume.jpg" target="_blank">
-    		<img src="img/resume.jpg" alt="...">
-    	</a>
-    </div>
-    </div>
 
 <?php get_footer(); ?>
