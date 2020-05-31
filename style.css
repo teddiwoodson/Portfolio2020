@@ -60,7 +60,7 @@ nav ul li a:hover {
   color: #cca4a6;
   text-decoration: none;
 }
-nav span {
+nav .navbar-toggler-icon {
   color: #314247;
 }
 #navbar-list-2 {
