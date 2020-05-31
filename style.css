@@ -1,0 +1,179 @@
+/*
+Theme Name: Portfolio
+Theme URI:
+Author: Teddi Woodson
+Description: Assignment 3 Theme
+Version: 1.0
+License: Open
+Text Domain: Assignment 2
+
+*/
+/* =========================
+
+  Body Styles
+
+========================= */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #455c6b;
+}
+h3 {
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+/* =========================
+
+  Header Styles
+
+========================= */
+header {
+    background: white;
+    margin-bottom: 2%;
+}
+header img {
+  max-width: 150px;
+  object-fit: contain;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+header ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  list-style-type: none;
+}
+header ul li {
+    display: inline;
+    padding: 5px;
+}
+header ul li a {
+  color: #455c6b;
+}
+header ul li a:hover {
+  color: #455c6b;
+}
+#logo-img {
+  padding-left: 0px;
+}
+/* =========================
+
+  Home Styles
+
+========================= */
+section {
+  margin: 2%;
+}
+.widget-about-home {
+  text-align: center;
+  margin: 2%;
+}
+.left-widget-home {
+  text-align: center;
+  margin: 2%;
+}
+.middle-widget-home {
+  text-align: center;
+  margin: 2%;
+}
+.right-widget-home {
+  text-align: center;
+  margin: 2%;
+}
+#yellow-section {
+  background-color: #fef9e2;
+  text-align: center;
+  padding: 5%;
+}
+#quote {
+  font-size: 1.5rem;
+}
+/* =========================
+
+  Index Styles
+
+========================= */
+
+.post-featured-image img {
+  max-width: 200px;
+  object-fit: contain;
+}
+#post-row {
+  margin-bottom: 10px;
+}
+#post {
+    background-color: #fef9e2;
+    margin: 10px;
+    text-align: center;
+    color: #2f3c4d;
+    padding: 1rem;
+}
+#post h3 a {
+    color: #2f3c4d;
+}
+
+.btn-primary {
+    background-color: #455c6b;
+    color: white;
+    border-color: white;
+  }
+
+  .btn-primary:hover{
+      background-color: white;
+      color: #455c6b;
+      border-color: white;
+    }
+
+/* =========================
+
+  Single Styles
+
+========================= */
+#posts {
+  margin: 1rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+.btn-secondary{
+  margin: 1rem;
+}
+.widget-right-post-sidebar ul {
+  list-style-type: none;
+  padding: 0px;
+}
+.widget-right-post-sidebar ul li a {
+  color: DarkKhaki;
+}
+/* =========================
+
+  404 Styles
+
+========================= */
+#not-found {
+  height: 60vh;
+}
+
+/* =========================
+
+  Footer Styles
+
+========================= */
+footer {
+    background-color: #455c6b;;
+    color: white;
+    padding: 10px;
+
+}
+footer ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  list-style-type: none;
+  padding: 0px;
+}
+footer ul li a {
+  color: white;
+}
+footer p {
+  text-align: center;
+}
