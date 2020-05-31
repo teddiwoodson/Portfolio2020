@@ -66,6 +66,9 @@ nav .navbar-toggler-icon {
 #navbar-list-2 {
   justify-content: space-evenly;
 }
+#navbar-list-2 ul li {
+  display: block;
+}
 
 /* stroke */
 nav.stroke ul li a,
