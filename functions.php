@@ -10,8 +10,13 @@ adds stylesheet and javascript files
     //Main CSS
     wp_enqueue_style('main-styles', get_stylesheet_uri());
   }
+    //javascript
+
+      wp_enqueue_script('custom-js', get_template_directory_uri() . '/js/html5shiv-printshiv.min.js');
 
   add_action('wp_enqueue_scripts', 'custom_theme_scripts');
+
+
 
 //Custom header logo
 
