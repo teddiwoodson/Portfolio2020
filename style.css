@@ -58,6 +58,7 @@ nav ul li a:before {
 }
 nav ul li a:hover {
   color: #cca4a6;
+  text-decoration: none;
 }
 nav span {
   color: #314247;
