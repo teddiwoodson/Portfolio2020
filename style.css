@@ -65,6 +65,7 @@ nav span {
 }
 #navbar-list-2 {
   justify-content: space-evenly;
+  display: block;
 }
 
 /* stroke */
