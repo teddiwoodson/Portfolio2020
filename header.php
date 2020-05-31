@@ -33,17 +33,28 @@
 
           <?php } ?>
         </div>
-        <div class="col-lg-9 d-flex justify-content-end">
-          <nav>
-            <?php
-              if(has_nav_menu('top-menu')) {
-                wp_nav_menu(array('theme_location' => 'top-menu', 'container_class' => 'top-menu-class'));
-              } else{
-                echo "Please select a top menu through the dashboard";
-              }
-            ?>
-          </nav>
-        </div>
+
       </div>
     </div>
   </header>
+
+  <header>
+  <nav class="navbar navbar-expand-sm stroke">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-list-2" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon">&#x2630;</span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar-list-2">
+      <div class="col-lg-9 d-flex justify-content-end">
+        <nav>
+          <?php
+            if(has_nav_menu('top-menu')) {
+              wp_nav_menu(array('theme_location' => 'top-menu', 'container_class' => 'top-menu-class'));
+            } else{
+              echo "Please select a top menu through the dashboard";
+            }
+          ?>
+        </nav>
+      </div>
+    </div>
+  </nav>
+</header>
