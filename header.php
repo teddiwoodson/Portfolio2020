@@ -25,14 +25,7 @@
 <header>
     <div class="container">
       <div class="row justify-content-center align-items-baseline">
-        <div class="col-lg-3" id="logo-img">
-        <?php if(get_header_image() == '') {?>
-            <h1><a href="<?php echo get_home_url();?>"><?php bloginfo('name');?></a></h1><?php
-          }else {?>
-            <a href="<?php echo get_home_url();?>"><img src="<?php header_image();?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" atl="logo" /></a>
 
-          <?php } ?>
-        </div>
 
       </div>
     </div>
@@ -43,6 +36,14 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-list-2" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon">&#x2630;</span>
     </button>
+    <div class="col-lg-3" id="logo-img">
+    <?php if(get_header_image() == '') {?>
+        <h1><a href="<?php echo get_home_url();?>"><?php bloginfo('name');?></a></h1><?php
+      }else {?>
+        <a href="<?php echo get_home_url();?>"><img src="<?php header_image();?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" atl="logo" /></a>
+
+      <?php } ?>
+    </div>
     <div class="collapse navbar-collapse" id="navbar-list-2">
       <div class="col-lg-9 d-flex justify-content-end">
         <nav>
