@@ -24,7 +24,7 @@
 <body>
 <header>
 
-  <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+  <nav class="navbar navbar-dark navbar-expand-sm">
   <a class="navbar-brand" href="#">
     <?php if(get_header_image() == '') {?>
         <h1><a href="<?php echo get_home_url();?>"><?php bloginfo('name');?></a></h1><?php
