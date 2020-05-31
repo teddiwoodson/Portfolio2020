@@ -77,9 +77,7 @@
     		    <p class="card-text">Blurb.</p>
     		  </div>
     		</div>
-    	</div>
-    	<div class="card-deck mt-5">
-    		<div class="card">
+        <div class="card">
     		  <img src="<?php echo get_template_directory_uri(); ?>/img/brand.png" class="card-img-top" alt="...">
     		  <div class="card-body">
     		    <h5 class="card-title">Branding</h5>
@@ -94,12 +92,15 @@
     		  </div>
     		</div>
     		<div class="card">
-    			<a rel="shrink" class="shrink"><img src="<?php echo get_template_directory_uri(); ?>/img/seo.png" class="card-img-top" alt="...">
+    			<img src="<?php echo get_template_directory_uri(); ?>/img/seo.png" class="card-img-top" alt="...">
     			  <div class="card-body">
     			    <h5 class="card-title">SEO</h5>
     			    <p class="card-text">Blurb.</p>
-    			  </div></a>
+    			  </div>
     		</div>
+    	</div>
+    	<div class="card-deck mt-5">
+
     	</div>
     </div>
 
