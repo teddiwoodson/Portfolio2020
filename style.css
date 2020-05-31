@@ -263,3 +263,58 @@ img {
 figure:hover h2 {
   display: none;
 }
+
+
+/* ============== 2020 styles ================ */
+
+jumbotron {
+  height: 100vh;
+  border: 0;
+  background-image: url("img/background3.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	font-family: 'Roboto Slab', serif;
+	overflow-x:hidden;
+}
+.resume img {
+  width: 100%;
+}
+div .card {
+  border: 0;
+}
+h1 {
+	display: block;
+}
+.logo {
+	display: block;
+	text-align: center;
+}
+.card-deck .card {
+	text-align: center;
+	background-color: #f3f3f3;
+	padding: 2%;
+}
+.card-deck .card img {
+	max-width: 55px;
+	margin: auto;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+.card-deck .card .card-body {
+	padding: 0;
+}
+.skills p {
+	margin: 0;
+}
+.progress {
+	margin-bottom: 5px;
+}
+img.about.card-img {
+	border-radius: 100%;
+}
+.progress-bar.bg-success-green {
+	background-color: #314247;
+}
+.progress {
+	background-color: #f3f3f3;
+}
