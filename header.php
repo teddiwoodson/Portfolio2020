@@ -1,41 +1,45 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+/**
+ * The template for displaying the header
+ *
+ * Displays all of the head element and everything up until the page header div.
+ *
+ * @package Neve
+ * @since   1.0.0
+ */
+
+$header_classes = apply_filters( 'nv_header_classes', 'header' );
+?><!DOCTYPE html>
+<html <?php language_attributes(); ?>>
+
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title><?php bloginfo('name');?></title>
-
-  <!--link to our style.css file -->
-  <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>"/>
-
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
-
-  <?php wp_head(); ?>
+	<meta charset="<?php bloginfo( 'charset' ); ?>">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<?php if ( is_singular() && pings_open( get_queried_object() ) ) : ?>
+		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+	<?php endif; ?>
+	<?php wp_head(); ?>
 </head>
 
-<body>
-<header>
-    <div class="container">
-      <div class="row justify-content-center align-items-baseline">
-        <div class="col-lg-3" id="logo-img">
-        <?php if(get_header_image() == '') {?>
-            <h1><a href="<?php echo get_home_url();?>"><?php bloginfo('name');?></a></h1><?php
-          }else {?>
-            <a href="<?php echo get_home_url();?>"><img src="<?php header_image();?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" atl="logo" /></a>
+<body  <?php body_class(); ?> <?php neve_body_attrs(); ?> >
+<?php wp_body_open(); ?>
+<div class="wrapper">
+	<header class="<?php echo esc_attr( $header_classes ); ?>" role="banner">
+		<a class="neve-skip-link show-on-focus" href="#content" tabindex="0">
+			<?php echo __( 'Skip to content', 'neve' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+		</a>
+		<?php
+		neve_before_header_trigger();
+		if ( apply_filters( 'neve_filter_toggle_content_parts', true, 'header' ) === true ) {
+			do_action( 'neve_do_header' );
+		}
+		neve_after_header_trigger();
+		?>
+	</header>
+	<?php do_action( 'neve_before_primary' ); ?>
 
-          <?php } ?>
-        </div>
-        <div class="col-lg-9 d-flex justify-content-end">
-          <nav>
-            <?php
-              if(has_nav_menu('top-menu')) {
-                wp_nav_menu(array('theme_location' => 'top-menu', 'container_class' => 'top-menu-class'));
-              } else{
-                echo "Please select a top menu through the dashboard";
-              }
-            ?>
-          </nav>
-        </div>
-      </div>
-    </div>
-  </header>
+	<main id="content" class="neve-main" role="main">
+
+<?php
+do_action( 'neve_after_primary_start' );
