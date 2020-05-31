@@ -270,7 +270,7 @@ figure:hover h2 {
 jumbotron {
   height: 100vh;
   border: 0;
-  background-image: url("img/background3.jpg");
+  background-image: url(<?php echo get_template_directory_uri(); ?>/img/background3.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	font-family: 'Roboto Slab', serif;
