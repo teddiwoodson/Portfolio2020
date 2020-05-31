@@ -21,7 +21,7 @@
   <?php wp_head(); ?>
 </head>
 
-<body>
+<body class="container-fluid">
 <header>
 
   <nav class="navbar navbar-expand-sm stroke">
