@@ -27,33 +27,78 @@ h3 {
   Header Styles
 
 ========================= */
-header {
-    background: white;
-    margin-bottom: 2%;
+/* Navigation */
+nav.navbar.navbar-expand-sm {
+	text-align: center;
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  z-index: 1000000;
+  background-color: transparent;
 }
-header img {
-  max-width: 150px;
-  object-fit: contain;
-  padding-top: 10px;
-  margin-top: 10px;
+nav ul {
+  list-style: none;
+  text-align: center;
 }
-header ul {
-  margin-top: 0;
-  margin-bottom: 1rem;
-  list-style-type: none;
+nav ul li {
+  display: inline-block;
 }
-header ul li {
-    display: inline;
-    padding: 5px;
+nav ul li a {
+  display: block;
+  padding: 15px;
+  margin: 0 10px;
+	color: #314247;
 }
-header ul li a {
-  color: #455c6b;
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
 }
-header ul li a:hover {
-  color: #455c6b;
+nav ul li a:hover {
+  color: #cca4a6;
 }
-#logo-img {
-  padding-left: 0px;
+nav span {
+  color: #314247;
+}
+#navbar-list-2 {
+  justify-content: space-evenly;
+}
+
+/* stroke */
+nav.stroke ul li a,
+nav.fill ul li a {
+  position: relative;
+}
+nav.stroke ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #cca4a6;
+  height: 1px;
+}
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+/* Navbar Annimation*/
+.navbar-scroll {
+	padding: 0;
+  padding-bottom: 15px;
+	box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+	transition-duration: 0.6s;
+}
+.nav-dropdown-scroll {
+	box-shadow: 0px 10px 9px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+nav.navbar.navbar-expand-sm.stroke.navbar-scroll {
+    background-color: white;
 }
 /* =========================
 
