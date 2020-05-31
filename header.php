@@ -33,7 +33,7 @@
 
       <?php } ?>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-list-2" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+    <span class="navbar-toggler-icon">&#x2630;</span>
   </button>
   <div class="collapse navbar-collapse" id="navbar-list-2">
     <div class="navbar-nav">
