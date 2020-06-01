@@ -112,7 +112,7 @@
       while(have_posts()){
         the_post(); ?>
         <div class="grid">
-          <a href="<?php the_permalink(); ?>">
+          <a href="<?php the_permalink('medium'); ?>">
 					<figure class="effect-julia">
 						<?php  the_post_thumbnail(); ?>
 						<figcaption>
