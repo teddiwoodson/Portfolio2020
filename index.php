@@ -110,7 +110,7 @@
   <?php if(have_posts()){ while(have_posts()){the_post(); ?>
   <div class="grid">
     <figure class="effect-steve">
-      <?php  the_post_thumbnail('medium'); ?>
+      <?php  the_post_thumbnail('thumbnail'); ?>
       <figcaption>
         <a href="<?php the_permalink(); ?>">
       </figcaption>
