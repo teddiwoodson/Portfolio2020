@@ -112,8 +112,6 @@
     <figure class="effect-steve">
       <?php  the_post_thumbnail('medium'); ?>
       <figcaption>
-        <h2><?php the_title(); ?></h2>
-        <p><?php the_excerpt(); ?></p>
         <a href="<?php the_permalink(); ?>">
       </figcaption>
     </figure>
