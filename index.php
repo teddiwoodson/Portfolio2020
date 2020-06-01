@@ -77,30 +77,29 @@
     		    <p class="card-text">Blurb.</p>
     		  </div>
     		</div>
-        <div class="card">
-    		  <img src="<?php echo get_template_directory_uri(); ?>/img/brand.png" class="card-img-top" alt="...">
-    		  <div class="card-body">
-    		    <h5 class="card-title">Branding</h5>
-    		    <p class="card-text">Blurb</p>
-    		  </div>
-    		</div>
-    		<div class="card">
-    		  <img src="<?php echo get_template_directory_uri(); ?>/img/project.png" class="card-img-top" alt="...">
-    		  <div class="card-body">
-    		    <h5 class="card-title">Project Management</h5>
-    		    <p class="card-text">Blurb</p>
-    		  </div>
-    		</div>
-    		<div class="card">
-    			<img src="<?php echo get_template_directory_uri(); ?>/img/seo.png" class="card-img-top" alt="...">
-    			  <div class="card-body">
-    			    <h5 class="card-title">SEO</h5>
-    			    <p class="card-text">Blurb.</p>
-    			  </div>
-    		</div>
     	</div>
     	<div class="card-deck mt-5">
-        <p>hello</p>
+        <div class="card">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/brand.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Branding</h5>
+            <p class="card-text">Blurb</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/project.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Project Management</h5>
+            <p class="card-text">Blurb</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="<?php echo get_template_directory_uri(); ?>/img/seo.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">SEO</h5>
+              <p class="card-text">Blurb.</p>
+            </div>
+        </div>
 
     	</div>
     </div>
