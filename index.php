@@ -108,40 +108,21 @@
 
     <!-- ======================= Blog Posts ==================-->
 <section class="row justify-content-center">
-    <?php if(have_posts()){
-      while(have_posts()){
-        the_post(); ?>
-        <div class="grid">
-          <a href="<?php the_permalink('medium'); ?>">
-					<figure class="effect-julia">
-						<?php  the_post_thumbnail(); ?>
-						<figcaption>
-							<h2><?php the_title(); ?></h2>
-							<div>
-								<p><?php the_excerpt(); ?></p>
-							</div>
-						</figcaption>
-					</figure>
-          </a>
-        </div>
+  <?php if(have_posts()){ while(have_posts()){the_post(); ?>
+  <div class="grid">
+    <figure class="effect-steve">
+      <?php  the_post_thumbnail('medium'); ?>
+      <figcaption>
+        <h2><?php the_title(); ?></h2>
+        <p><?php the_excerpt(); ?></p>
+        <a href="<?php the_permalink(); ?>">
+      </figcaption>
+    </figure>
+  </div>
       <?php } // ends while loop
     } // ends if statement
     ?>
 </section>
-
-<div class="grid">
-  <figure class="effect-steve">
-    <img src="https://tympanus.net/Development/HoverEffectIdeas/img/29.jpg" alt="img29"/>
-    <figcaption>
-      <h2>Lonely <span>Steve</span></h2>
-      <p>Steve was afraid of the Boogieman.</p>
-      <a href="#">View more</a>
-    </figcaption>
-  </figure>
-</div>
-
-
-
 
     <!--======================= Resume ====================-->
 
