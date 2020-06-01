@@ -114,7 +114,7 @@
             the_post(); ?>
             <div class="grid">
               <a href="<?php the_permalink(); ?>">
-                <figure class="effect-steve">
+                <figure class="effect-zoe">
                   <?php  the_post_thumbnail('medium'); ?>
                   <figcaption>
                     <h2><?php the_title(); ?></h2>
