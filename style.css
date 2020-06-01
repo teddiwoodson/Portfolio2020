@@ -171,6 +171,7 @@ Individual post tiles
 	opacity: 0;
 }
 
+
 .grid figure h2 {
 	word-spacing: -0.15em;
 	font-weight: 300;
@@ -190,6 +191,7 @@ Individual post tiles
 	font-size: 68.5%;
 }
 
+
 /* Individual effect */
 
 /*-----------------*/
@@ -203,7 +205,7 @@ figure.effect-steve {
 }
 
 figure.effect-steve:before,
-figure.effect-steve h2:before {
+figure.effect-steve {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -233,33 +235,6 @@ figure.effect-steve img {
 	transform: perspective(1000px) translate3d(0,0,0);
 }
 
-figure.effect-steve h2,
-figure.effect-steve p {
-	background: #fff;
-	color: #2d434e;
-}
-
-figure.effect-steve h2 {
-	position: relative;
-	margin-top: 2em;
-	padding: 0.25em;
-}
-
-figure.effect-steve h2:before {
-	box-shadow: 0 1px 10px rgba(0,0,0,0.5);
-}
-
-figure.effect-steve p {
-	margin-top: 1em;
-	padding: 0.5em;
-	font-weight: 800;
-	opacity: 0;
-	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: scale3d(0.9,0.9,1);
-	transform: scale3d(0.9,0.9,1);
-}
-
 figure.effect-steve:hover:before {
 	opacity: 1;
 }
@@ -267,16 +242,6 @@ figure.effect-steve:hover:before {
 figure.effect-steve:hover img {
 	-webkit-transform: perspective(1000px) translate3d(0,0,21px);
 	transform: perspective(1000px) translate3d(0,0,21px);
-}
-
-figure.effect-steve:hover h2:before {
-	opacity: 0;
-}
-
-figure.effect-steve:hover p {
-	opacity: 1;
-	-webkit-transform: scale3d(1,1,1);
-	transform: scale3d(1,1,1);
 }
 
 /* Media queries */
