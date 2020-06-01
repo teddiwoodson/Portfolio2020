@@ -127,8 +127,18 @@
       <?php } // ends while loop
     } // ends if statement
     ?>
-
 </section>
+
+<div class="grid">
+  <figure class="effect-steve">
+    <img src="https://tympanus.net/Development/HoverEffectIdeas/img/29.jpg" alt="img29"/>
+    <figcaption>
+      <h2>Lonely <span>Steve</span></h2>
+      <p>Steve was afraid of the Boogieman.</p>
+      <a href="#">View more</a>
+    </figcaption>
+  </figure>
+</div>
 
 
 
