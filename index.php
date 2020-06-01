@@ -4,11 +4,6 @@
     	<main class="">
     		<div class="jumbotron jumbotron-fluid">
     		<div class="container">
-    		</br>
-    		</br>
-    		</br>
-    		</br>
-    		</br>
     			<p class="lead"><div class="welcome">
     				<h1>Hi, Im Teddi.</h1>
     				<p>Designer. Developer. Creator.</p>
