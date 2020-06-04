@@ -81,8 +81,8 @@
         <div class="d-block" style="background-color:red;">
           <div class="card">
             <div class="card-body">
-              <h3 class="card-title">Graphic Designer</h3>
-              <h6 class="card-subtitle mb-2 text-muted">Tampa Bay Lightning</h6>
+              <h3 class="card-title">Graphic Designer, Tampa Bay Lightning</h3>
+              <h6 class="card-subtitle mb-2 text-muted"></h6>
               <h6 class="card-subtitle mb-2 text-muted">October 2019 - May 2020</h6>
               <ul class="card-text">
                 <li>Designed print & digital assets for the Tampa Bay Lightning & affiliate organizations including AMALIE Arena, the University of South Florida & the Yuengling Center</li>

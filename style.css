@@ -496,5 +496,8 @@ div .card {
 	bottom: -50px;
 }
 .carousel-inner {
-	width: max-content;
+	max-width: 699px;
+}
+.card-text li {
+	color: #314247;
 }
