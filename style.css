@@ -288,10 +288,10 @@ h1 {
 	margin-bottom: 5px;
 }
 .progress-bar.bg-success-green {
-	background-color: #314247;
+	background-color: #cca4a6;
 }
 .progress {
-	background-color: #f3f3f3;
+	background-color: #f7f7f7;
 }
 .container-fluid {
   background-color: white;
@@ -300,7 +300,7 @@ h1 {
 	text-align: center;
 }
 .work {
-	background-color: #cca4a6;
+	background-color: #f7f7f7;
 	margin: 15px 0 15px 0;
 	padding: 20px 0px 20px 0px;
 }
@@ -408,4 +408,16 @@ h1 {
 @keyframes animateBar {
     0% {transform: translateX(-100%);}
     100% {transform: translateX(0);}
+}
+.skills {
+	background-color: #647973;
+	margin: 15px 0 15px 0;
+	padding: 20px 0px 20px 0px;
+	text-align: left;
+}
+.skills h2 {
+	color: white;
+}
+.skills p {
+	color: white;
 }

@@ -59,29 +59,29 @@
           </div>
         </div>
     	</div>
+    </div>-->
     </div>
-    </div> -->
 
 <!-- ======================= Skills ==================-->
 
     <div class="card mt-5 mb-5 border-0" style="max-width: 100%;">
-      <div class="row about d-flex justify-content-center align-items-center">
+      <div class="row skills d-flex justify-content-center align-items-center">
         <div class="col-md-7">
           <div class="card-body">
             <section class="skills">
-              <p>HTML</p>
+              <p>Web Design</p>
               <div class="progress">
                 <div class="progress-bar bg-success-green" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
-              <p>CSS</p>
+              <p>Adobe Creative Suite</p>
               <div class="progress">
                 <div class="progress-bar bg-success-green" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
-              <p>JavaScript</p>
+              <p>Branding</p>
               <div class="progress">
                 <div class="progress-bar bg-success-green" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
-              <p>Photoshop</p>
+              <p>Project Management</p>
               <div class="progress">
                 <div class="progress-bar bg-success-green" role="progressbar" style="width: 88%" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
@@ -96,6 +96,7 @@
   </div>
 
     <!-- ======================= Blog Posts ==================-->
+<div class="container">
     <section class="row justify-content-center work">
       <div class="col-12">
         <h2>My Work</h2>
@@ -118,6 +119,7 @@
       } // ends if statement
       ?>
       </section>
+</div>
 
     <!--======================= Resume ====================-->
 
