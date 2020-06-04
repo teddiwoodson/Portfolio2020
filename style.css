@@ -27,6 +27,11 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 body, html {
   overflow-x:hidden;
 }
+.container-fluid {
+  background-color: white;
+  padding-left: 0;
+  padding-right: 0;
+}
 /* =========================
 
   Reoccuring Styles
@@ -56,26 +61,191 @@ a.btn.btn-primary.btn-lg {
 a.btn.btn-primary.btn-lg:hover {
   background-color: #cca4a6;
 }
-
 /* =========================
 
   Header Styles
 
 ========================= */
+/* ================ Navigation ============ */
+/* Made by Erik Terwan * 24th of November 2015 * MIT license */
+#menuToggle {
+  display: block;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  z-index: 1;
+  -webkit-user-select: none;
+  user-select: none;
+}
+#menuToggle input {
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  cursor: pointer;
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  -webkit-touch-callout: none;
+}
+#menuToggle span {
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #314247;
+  border-radius: 3px;
+  z-index: 1;
+  transform-origin: 4px 0px;
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+#menuToggle span:first-child{
+  transform-origin: 0% 0%;
+}
+#menuToggle span:nth-last-child(2){
+  transform-origin: 0% 100%;
+}
+#menuToggle input:checked ~ span{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+#menuToggle input:checked ~ span:nth-last-child(3) {
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+#menuToggle input:checked ~ span:nth-last-child(2) {
+  opacity: 1;
+  transform: rotate(-45deg) translate(0, -1px);
+}
+#menu {
+  position: absolute;
+  width: 300px;
+  margin: -100px 0 0 0;
+  padding: 50px;
+  padding-top: 125px;
+  right: -100px;
+  background: #ededed;
+  list-style-type: none;
+  -webkit-font-smoothing: antialiased;
+  transform-origin: 0% 0%;
+  transform: translate(100%, 0);
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+}
+#menu li {
+  padding: 10px 0;
+  font-size: 22px;
+	list-style-type: none;
+	text-align: left;
+}
+#menuToggle input:checked ~ ul{
+  transform: none;
+  opacity: 1;
+}
+@media screen and (max-width: 768px) {
+  #menu {
+    transform: none;
+    opacity: 0;
+
+    transition: opacity 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  }
+}
 
 /* =========================
 
-  Home Styles
+  Jumbotron Styles
+
+========================= */
+.jumbotron {
+  border: 0;
+	background-color: #cca4a6;
+	font-family: 'Roboto Slab', serif;
+	width: 100%;
+	overflow-x:hidden;
+}
+.jumbo-content {
+	padding: 0 10px;
+}
+
+/* =========================
+
+  About Styles
+
+========================= */
+.about {
+	background-color: #f7f7f7;
+	margin: 15px 0 15px 0;
+	padding: 20px 0px 20px 0px;
+	text-align: left;
+}
+
+/* =========================
+
+  Counter Styles
+
+========================= */
+
+/* =========================
+
+  Skills Styles
+
+========================= */
+
+.animate {
+    animation-name: animateBar;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+}
+@keyframes animateBar {
+    0% {transform: translateX(-100%);}
+    100% {transform: translateX(0);}
+}
+.skills {
+	background-color: #647973;
+	margin: 15px 0 15px 0;
+	padding: 20px 0px 20px 0px;
+	text-align: left;
+}
+.skills h2 {
+	color: white;
+}
+.skills p {
+	color: white;
+	margin: 0;
+}
+.progress {
+	margin-bottom: 5px;
+}
+.progress-bar.bg-success-green {
+	background-color: #cca4a6;
+}
+.progress {
+	background-color: #f7f7f7;
+}
+
+/* =========================
+
+  quote Styles
 
 ========================= */
 
 
 /* ==========================
 
-Individual post tiles
+Portfolio post tiles
 
 ============================= */
-/* ------------ hover over css ----------------- */
+.work {
+	background-color: #f7f7f7;
+	margin: 15px 0 15px 0;
+	padding: 20px 0px 20px 0px;
+}
+
 .grid {
 	position: relative;
 	clear: both;
@@ -241,30 +411,26 @@ figure.effect-ming:hover img {
 		width: 100%;
 	}
 }
-/* ============== 2020 styles ================ */
+/* =========================
 
-.jumbotron {
-  border: 0;
-	background-color: #cca4a6;
-	font-family: 'Roboto Slab', serif;
-	width: 100%;
-	overflow-x:hidden;
+  Single Post Styles
+
+========================= */
+.post h2 {
+	text-align: left;
 }
-.jumbo-content {
-	padding: 0 10px;
+.post p {
+	text-align: left;
 }
-.resume img {
-  width: 100%;
-}
+/* =========================
+
+  Footer Styles
+
+========================= */
+
+/* ============== 2020 styles ================ */
 div .card {
   border: 0;
-}
-h1 {
-	display: block;
-}
-.logo {
-	display: block;
-	text-align: center;
 }
 .card-deck .card {
 	text-align: center;
@@ -279,150 +445,4 @@ h1 {
 }
 .card-deck .card .card-body {
 	padding: 0;
-}
-.skills p {
-	margin: 0;
-}
-.progress {
-	margin-bottom: 5px;
-}
-.progress-bar.bg-success-green {
-	background-color: #cca4a6;
-}
-.progress {
-	background-color: #f7f7f7;
-}
-.container-fluid {
-  background-color: white;
-  padding-left: 0;
-  padding-right: 0;
-	text-align: center;
-}
-.work {
-	background-color: #f7f7f7;
-	margin: 15px 0 15px 0;
-	padding: 20px 0px 20px 0px;
-}
-/* ================ Navigation ============ */
-/* Made by Erik Terwan * 24th of November 2015 * MIT license */
-#menuToggle {
-  display: block;
-  position: absolute;
-  top: 50px;
-  right: 50px;
-  z-index: 1;
-  -webkit-user-select: none;
-  user-select: none;
-}
-#menuToggle input {
-  display: block;
-  width: 40px;
-  height: 32px;
-  position: absolute;
-  top: -7px;
-  left: -5px;
-  cursor: pointer;
-  opacity: 0; /* hide this */
-  z-index: 2; /* and place it over the hamburger */
-  -webkit-touch-callout: none;
-}
-#menuToggle span {
-  display: block;
-  width: 33px;
-  height: 4px;
-  margin-bottom: 5px;
-  position: relative;
-  background: #314247;
-  border-radius: 3px;
-  z-index: 1;
-  transform-origin: 4px 0px;
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              opacity 0.55s ease;
-}
-#menuToggle span:first-child{
-  transform-origin: 0% 0%;
-}
-#menuToggle span:nth-last-child(2){
-  transform-origin: 0% 100%;
-}
-#menuToggle input:checked ~ span{
-  opacity: 1;
-  transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
-}
-#menuToggle input:checked ~ span:nth-last-child(3) {
-  opacity: 0;
-  transform: rotate(0deg) scale(0.2, 0.2);
-}
-#menuToggle input:checked ~ span:nth-last-child(2) {
-  opacity: 1;
-  transform: rotate(-45deg) translate(0, -1px);
-}
-#menu {
-  position: absolute;
-  width: 300px;
-  margin: -100px 0 0 0;
-  padding: 50px;
-  padding-top: 125px;
-  right: -100px;
-  background: #ededed;
-  list-style-type: none;
-  -webkit-font-smoothing: antialiased;
-  transform-origin: 0% 0%;
-  transform: translate(100%, 0);
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-}
-#menu li {
-  padding: 10px 0;
-  font-size: 22px;
-	list-style-type: none;
-	text-align: left;
-}
-#menuToggle input:checked ~ ul{
-  transform: none;
-  opacity: 1;
-}
-@media screen and (max-width: 768px) {
-  #menu {
-    transform: none;
-    opacity: 0;
-
-    transition: opacity 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-  }
-}
-.about {
-	background-color: #f7f7f7;
-	margin: 15px 0 15px 0;
-	padding: 20px 0px 20px 0px;
-	text-align: left;
-}
-
-.animate {
-    animation-name: animateBar;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in;
-    animation-duration: 1s;
-}
-@keyframes animateBar {
-    0% {transform: translateX(-100%);}
-    100% {transform: translateX(0);}
-}
-.skills {
-	background-color: #647973;
-	margin: 15px 0 15px 0;
-	padding: 20px 0px 20px 0px;
-	text-align: left;
-}
-.skills h2 {
-	color: white;
-}
-.skills p {
-	color: white;
-}
-.post h2 {
-	text-align: left;
-}
-.post p {
-	text-align: left;
 }
