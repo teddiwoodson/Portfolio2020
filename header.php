@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
 
-  <title><?php bloginfo('name');?></title>
+  <meta name="viewport" content="width=device-width, initial-scale = 1.0,maximum-scale=1.0, user-scalable=no" />
 
-  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title><?php bloginfo('name');?></title>
 
 <!--link to our style.css file -->
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>"/>

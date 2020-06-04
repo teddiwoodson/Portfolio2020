@@ -8,6 +8,12 @@ License: Open
 Text Domain: Assignment 2
 
 */
+/*
+#cca4a6 — pink
+#f7f7f7 —white
+#647973 — light green
+#314247 — dark green
+*/
 /* Reset Rule */
 * {
 	margin: 0;
@@ -17,6 +23,9 @@ Text Domain: Assignment 2
 
 article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
     display:block;
+}
+body, html {
+  overflow-x:hidden;
 }
 /* =========================
 
@@ -236,9 +245,10 @@ figure.effect-ming:hover img {
 
 .jumbotron {
   border: 0;
-	background-color: pink;
+	background-color: #cca4a6;
 	height: 100vh;
 	font-family: 'Roboto Slab', serif;
+	width: 100%;
 	overflow-x:hidden;
 }
 .jumbo-content {
@@ -291,6 +301,11 @@ img.about.card-img {
   padding-left: 0;
   padding-right: 0;
 	text-align: center;
+}
+.work {
+	background-color: #cca4a6;
+	margin: 15px 0 15px 0;
+	padding: 20px 0px 20px 0px;
 }
 /* ================ Navigation ============ */
 /* Made by Erik Terwan * 24th of November 2015 * MIT license */

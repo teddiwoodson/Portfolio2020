@@ -4,7 +4,7 @@
     	<main class="">
         <div class="jumbotron jumbotron-fluid d-flex justify-content-center align-items-center">
           <div class="jumbo-content">
-          <h1 class="display-4">Hello, world!</h1>
+          <h1>Hello, world!</h1>
           <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
           <hr class="my-4">
           <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
@@ -49,6 +49,7 @@
     		    </div>
     	  	</div>
     	</div>
+
 
     <!--======================= Portfolio ====================-->
     <div class="">
@@ -100,10 +101,14 @@
 
     	</div>
     </div>
+    </div>
 
 
     <!-- ======================= Blog Posts ==================-->
-    <section class="row justify-content-center">
+    <section class="row justify-content-center work">
+      <div class="col-12">
+        <h2>My Work</h2>
+      </div>
       <?php if(have_posts()){
         while(have_posts()){
           the_post(); ?>
