@@ -241,6 +241,9 @@ figure.effect-ming:hover img {
 	font-family: 'Roboto Slab', serif;
 	overflow-x:hidden;
 }
+.jumbo-content {
+	padding: 0 10px;
+}
 .resume img {
   width: 100%;
 }

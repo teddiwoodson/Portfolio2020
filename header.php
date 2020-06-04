@@ -5,12 +5,12 @@
 
   <title><?php bloginfo('name');?></title>
 
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <!--link to our style.css file -->
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>"/>
 
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
-
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
