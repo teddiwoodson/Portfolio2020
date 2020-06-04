@@ -241,7 +241,7 @@ section#counter-stats {
     0% {transform: translateX(-100%);}
     100% {transform: translateX(0);}
 }
-.skill p {
+.skills p {
 	margin: 0;
 }
 .progress {
