@@ -189,6 +189,41 @@ a.btn.btn-primary.btn-lg:hover {
   Counter Styles
 
 ========================= */
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+
+/*/ start count stats /*/
+
+section#counter-stats {
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
+}
+
+.stats {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.stats .fa {
+  color: white;
+  font-size: 60px;
+}
+
+/*/ end count stats /*/
+.divider {
+	background-color: #647973;
+	margin: 15px 0 15px 0;
+	padding: 20px 0px 20px 0px;
+	text-align: left;
+	color: white;
+}
+.divider h5 {
+	color: white;
+}
+.counting {
+	font-family: 'Playfair Display', serif;
+}
 
 /* =========================
 
@@ -205,15 +240,6 @@ a.btn.btn-primary.btn-lg:hover {
 @keyframes animateBar {
     0% {transform: translateX(-100%);}
     100% {transform: translateX(0);}
-}
-.divider {
-	background-color: #647973;
-	margin: 15px 0 15px 0;
-	padding: 20px 0px 20px 0px;
-	text-align: left;
-}
-.skills h2 {
-	color: white;
 }
 .skill p {
 	margin: 0;

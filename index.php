@@ -17,7 +17,7 @@
 
     <!--======================= About ====================-->
     	<div class="container">
-    		<div class="card mt-5 mb-5 border-0" style="max-width: 100%;">
+    		<div class="card mt-5 border-0" style="max-width: 100%;">
     	  	<div class="row about d-flex justify-content-center align-items-center">
     	    	<div class="col-md-4">
     	      	<img src="<?php echo get_template_directory_uri(); ?>/img/headshot.jpg" class="about card-img" alt="...">
@@ -33,7 +33,48 @@
     		    </div>
     	  	</div>
     	</div>
+    </div>
+<!--- =============== Stats Divider ================ -->
 
+<!-- start count stats -->
+
+<section id="counter-stats" class="wow fadeInRight divider" data-wow-duration="1.4s">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-lg-3 stats">
+				<i class="fa fa-code" aria-hidden="true"></i>
+				<div class="counting" data-count="900000">0</div>
+				<h5>Lines of code</h5>
+			</div>
+
+			<div class="col-lg-3 stats">
+				<i class="fa fa-check" aria-hidden="true"></i>
+				<div class="counting" data-count="280">0</div>
+				<h5>Projects done</h5>
+			</div>
+
+			<div class="col-lg-3 stats">
+				<i class="fa fa-user" aria-hidden="true"></i>
+				<div class="counting" data-count="75">0</div>
+				<h5>Happy clients</h5>
+			</div>
+
+			<div class="col-lg-3 stats">
+				<i class="fa fa-coffee" aria-hidden="true"></i>
+				<div class="counting" data-count="999">0</div>
+				<h5>Cups of coffee</h5>
+			</div>
+
+
+		</div>
+		<!-- end row -->
+	</div>
+	<!-- end container -->
+
+</section>
+
+<!-- end cont stats -->
     <!--======================= Services ====================
     <div class="">
     	<div class="card-deck mt-5">
