@@ -488,7 +488,6 @@ div .card {
     display: flex;
     justify-content: center;
 }
-
 .carousel-indicators li {
 	background-color: #cca4a6;
 }
@@ -500,4 +499,7 @@ div .card {
 }
 .card-text li {
 	color: #314247;
+}
+.ul.card-text {
+    padding: 0px 20px;
 }
