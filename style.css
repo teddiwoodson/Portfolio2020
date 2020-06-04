@@ -196,7 +196,8 @@ a.btn.btn-primary.btn-lg:hover {
 section#counter-stats {
 	display: flex;
 	justify-content: center;
-	margin-top: 100px;
+	align-items: center;
+	height: 400px;
 }
 
 .stats {
