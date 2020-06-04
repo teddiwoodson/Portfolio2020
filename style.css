@@ -68,6 +68,9 @@ a.btn.btn-primary.btn-lg:hover {
 
 ========================= */
 /* ================ Navigation ============ */
+header {
+	x-index: 10000000;
+}
 /* Made by Erik Terwan * 24th of November 2015 * MIT license */
 #menuToggle {
   display: block;
@@ -163,7 +166,13 @@ a.btn.btn-primary.btn-lg:hover {
 ========================= */
 .jumbotron {
   border: 0;
+	background-image: url(img/backgroundtexture.jpg);
 	background-color: #cca4a6;
+	height: 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
 	font-family: 'Roboto Slab', serif;
 	width: 100%;
 	overflow-x:hidden;
@@ -472,4 +481,20 @@ div .card {
 }
 .card-deck .card .card-body {
 	padding: 0;
+}
+/* ============== Experience Carousel ================== */
+.carousel {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-indicators li {
+	background-color: #cca4a6;
+}
+.carousel-indicators {
+	bottom: -50px;
+}
+.carousel-inner {
+	width: max-content;
 }

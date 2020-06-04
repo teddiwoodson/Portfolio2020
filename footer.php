@@ -35,7 +35,7 @@ $('.counting').each(function() {
 
   {
 
-    duration: 500,
+    duration: 5000,
     easing:'linear',
     step: function() {
       $this.text(Math.floor(this.countNum));

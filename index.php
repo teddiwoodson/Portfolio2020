@@ -41,25 +41,25 @@
 <section id="counter-stats" class="wow fadeInRight divider" data-wow-duration="1.4s">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-3 stats">
+			<div class="col-lg-3 col-6 stats">
 				<i class="fa fa-code" aria-hidden="true"></i>
 				<div class="counting" data-count="900000">0</div>
 				<h5>Lines of code</h5>
 			</div>
 
-			<div class="col-lg-3 stats">
+			<div class="col-lg-3 col-6 stats">
 				<i class="fa fa-check" aria-hidden="true"></i>
 				<div class="counting" data-count="280">0</div>
 				<h5>Projects done</h5>
 			</div>
 
-			<div class="col-lg-3 stats">
+			<div class="col-lg-3 col-6 stats">
 				<i class="fa fa-user" aria-hidden="true"></i>
 				<div class="counting" data-count="75">0</div>
 				<h5>Happy clients</h5>
 			</div>
 
-			<div class="col-lg-3 stats">
+			<div class="col-lg-3 col-6 stats">
 				<i class="fa fa-coffee" aria-hidden="true"></i>
 				<div class="counting" data-count="999">0</div>
 				<h5>Cups of coffee</h5>
@@ -74,6 +74,61 @@
 </section>
 
 <!-- end cont stats -->
+<section class="divider">
+  <div id="carouselExampleIndicators" class="carousel" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="d-block" style="background-color:red;">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title">Card title</h3>
+              <h6 class="card-subtitle mb-2 text-muted">Hi</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="d-block">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title">Graphic Designer</h3>
+              <h6 class="card-subtitle mb-2 text-muted">Hello</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="d-block">
+          <div class="card">
+            <div class="card-body"  >
+              <h3 class="card-title">Card title</h3>
+              <h6 class="card-subtitle mb-2 text-muted">Goodbye</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  </div>
+
+</section>
+
     <!--======================= Services ====================
     <div class="">
     	<div class="card-deck mt-5">
