@@ -236,6 +236,8 @@ figure.effect-ming:hover img {
 
 .jumbotron {
   border: 0;
+	background-color: pink;
+	height: 100vh;
 	font-family: 'Roboto Slab', serif;
 	overflow-x:hidden;
 }
@@ -316,7 +318,7 @@ img.about.card-img {
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-  background: #cdcdcd;
+  background: #314247;
   border-radius: 3px;
   z-index: 1;
   transform-origin: 4px 0px;
