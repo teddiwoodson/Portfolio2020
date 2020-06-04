@@ -80,7 +80,7 @@ Individual post tiles
 	position: relative;
 	clear: both;
 	margin: 0 auto;
-	padding: 1em 0 4em;
+	padding: 1em 0 .2em;
 	max-width: 1000px;
 	list-style: none;
 	text-align: center;
@@ -221,7 +221,7 @@ figure.effect-ming:hover p {
 }
 
 figure.effect-ming:hover figcaption {
-	background-color: rgba(58,52,42,0);
+	background-color: rgba(49, 66, 71, 0.4)
 }
 
 figure.effect-ming:hover img {
