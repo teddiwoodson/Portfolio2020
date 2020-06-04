@@ -75,6 +75,7 @@
 
 <!-- end cont stats -->
 <section class="divider">
+  <h2>Experience<h2>
   <div id="carouselExampleIndicators" class="carousel" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
