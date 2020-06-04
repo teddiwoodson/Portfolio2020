@@ -18,38 +18,52 @@
     <!--======================= About ====================-->
     	<div class="container">
     		<div class="card mt-5 mb-5 border-0" style="max-width: 100%;">
-    	  	<div class="row no-gutters">
+    	  	<div class="row about d-flex justify-content-center align-items-center">
     	    	<div class="col-md-4">
     	      	<img src="<?php echo get_template_directory_uri(); ?>/img/headshot.jpg" class="about card-img" alt="...">
     	    	</div>
-    		    <div class="col-md-8">
+    		    <div class="col-md-7">
     		      <div class="card-body">
-    		        <h2 class="card-title">About</h5>
-    		        <p class="card-text">Blurb about Teddi</p>
-    						<section class="skills">
-    							<p>HTML</p>
-    							<div class="progress">
-    						  	<div class="progress-bar bg-success-green" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-    							</div>
-    							<p>CSS</p>
-    							<div class="progress">
-    						  	<div class="progress-bar bg-success-green" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-    							</div>
-    							<p>JavaScript</p>
-    							<div class="progress">
-    						  	<div class="progress-bar bg-success-green" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-    							</div>
-    							<p>Photoshop</p>
-    							<div class="progress">
-    						  	<div class="progress-bar bg-success-green" role="progressbar" style="width: 88%" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"></div>
-    							</div>
-    						</section>
-    						<a href="<?php echo get_template_directory_uri(); ?>/img/resume.jpg" target="_blank" type="button" class="btn btn-primary btn-lg">Resume</a>
+    		        <h2 class="card-title">Hi, I'm Teddi!</h5>
+    		        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    						<a href="#" target="_blank" type="button" class="btn btn-primary btn-lg">View Portfolio</a>
+                <a href="<?php echo get_template_directory_uri(); ?>/img/resume.jpg" target="_blank" type="button" class="btn btn-primary btn-lg">Download Resume</a>
     		      </div>
     		    </div>
     	  	</div>
     	</div>
 
+      <div class="card mt-5 mb-5 border-0" style="max-width: 100%;">
+        <div class="row about d-flex justify-content-center align-items-center">
+          <div class="col-md-7">
+            <div class="card-body">
+              <section class="skills">
+                <p>HTML</p>
+                <div class="progress">
+                  <div class="progress-bar bg-success-green" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p>CSS</p>
+                <div class="progress">
+                  <div class="progress-bar bg-success-green" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p>JavaScript</p>
+                <div class="progress">
+                  <div class="progress-bar bg-success-green" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <p>Photoshop</p>
+                <div class="progress">
+                  <div class="progress-bar bg-success-green" role="progressbar" style="width: 88%" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </section>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <h2 class="card-title">My Skills</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          </div>
+        </div>
+    </div>
 
     <!--======================= Portfolio ====================-->
     <div class="">

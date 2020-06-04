@@ -287,9 +287,6 @@ h1 {
 .progress {
 	margin-bottom: 5px;
 }
-img.about.card-img {
-	border-radius: 100%;
-}
 .progress-bar.bg-success-green {
 	background-color: #314247;
 }
@@ -394,4 +391,10 @@ img.about.card-img {
 
     transition: opacity 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
   }
+}
+.about {
+	background-color: #f7f7f7;
+	margin: 15px 0 15px 0;
+	padding: 20px 0px 20px 0px;
+	text-align: left;
 }
