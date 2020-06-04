@@ -78,7 +78,7 @@
   <div id="carouselExampleIndicators" class="carousel row" data-ride="carousel">
     <div class="carousel-inner col-12">
       <div class="carousel-item active">
-        <div class="d-block" style="background-color:red;">
+        <div class="d-block">
           <div class="card">
             <div class="card-body">
               <h3 class="card-title">Graphic Designer, Tampa Bay Lightning</h3>
@@ -121,15 +121,17 @@
         </div>
       </div>
     </div>
-    <div class="arrows col-3">
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-      </a>
+    <div class="arrows col-12">
+      <div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+        </a>
+      </div>
     </div>
   </div>
 
