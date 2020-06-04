@@ -63,9 +63,9 @@
     </div>
 
 <!-- ======================= Skills ==================-->
-
+<div class="container">
     <div class="card mt-5 mb-5 border-0" style="max-width: 100%;">
-      <div class="row skills d-flex justify-content-center align-items-center">
+      <div class="row about d-flex justify-content-center align-items-center">
         <div class="col-md-7">
           <div class="card-body">
             <section class="skills">
@@ -94,6 +94,7 @@
         </div>
       </div>
   </div>
+</div>
 
     <!-- ======================= Blog Posts ==================-->
 <div class="container">
