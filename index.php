@@ -81,11 +81,15 @@
         <div class="d-block" style="background-color:red;">
           <div class="card">
             <div class="card-body">
-              <h3 class="card-title">Card title</h3>
-              <h6 class="card-subtitle mb-2 text-muted">Hi</h6>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
+              <h3 class="card-title">Graphic Designer</h3>
+              <h6 class="card-subtitle mb-2 text-muted">Tampa Bay Lightning</h6>
+              <h6 class="card-subtitle mb-2 text-muted">October 2019 - May 2020</h6>
+              <ul class="card-text">
+                <li>Designed print & digital assets for the Tampa Bay Lightning & affiliate organizations including AMALIE Arena, the University of South Florida & the Yuengling Center</li>
+                <li>Worked on deadlines to produce collateral such as flyers, web advertisements, animated graphics, & social posts for new & ongoing campaigns</li>
+                <li>Collaborated with other departments to create assets for distribution to 600,000+ fans</li>
+                <li>Ensured final graphics & layouts were visually appealing & adhered to brand guidelines</li>
+              </ul>
             </div>
           </div>
         </div>
