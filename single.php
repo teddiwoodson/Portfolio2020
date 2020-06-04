@@ -1,7 +1,7 @@
 <?php get_header(); ?>
   <div class="container">
     <div class="row justify-content-center">
-      <main class="col-md-7">
+      <main class="col-12">
         <?php
           if(have_posts()) {
             while(have_posts()){
@@ -16,10 +16,6 @@
 
         <a class="btn btn-secondary btn-sm" href="<?php echo get_home_url(); ?>">Return to Home Page</a>
       </main>
-
-      <aside class="col-md-3">
-        <?php get_sidebar(); ?>
-      </aside>
     </div>
   </div>
 <?php get_footer(); ?>
