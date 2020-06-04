@@ -75,8 +75,8 @@
 
 <!-- end cont stats -->
 <section class="divider">
-  <div id="carouselExampleIndicators" class="carousel" data-ride="carousel">
-    <div class="carousel-inner">
+  <div id="carouselExampleIndicators" class="carousel row" data-ride="carousel">
+    <div class="carousel-inner col-12">
       <div class="carousel-item active">
         <div class="d-block" style="background-color:red;">
           <div class="card">
@@ -121,14 +121,16 @@
         </div>
       </div>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+    <div class="col-12">
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+      </a>
+    </div>
   </div>
 
 </section>
