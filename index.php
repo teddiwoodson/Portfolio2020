@@ -10,7 +10,7 @@
           <p class="lead">
             <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
           </p>
-</div>
+        </div>
     	</main>
 
     <!--======================= About ====================-->
