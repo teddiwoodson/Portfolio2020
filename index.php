@@ -34,38 +34,7 @@
     	  	</div>
     	</div>
 
-      <div class="card mt-5 mb-5 border-0" style="max-width: 100%;">
-        <div class="row about d-flex justify-content-center align-items-center">
-          <div class="col-md-7">
-            <div class="card-body">
-              <section class="skills">
-                <p>HTML</p>
-                <div class="progress">
-                  <div class="progress-bar bg-success-green" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-                <p>CSS</p>
-                <div class="progress">
-                  <div class="progress-bar bg-success-green" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-                <p>JavaScript</p>
-                <div class="progress">
-                  <div class="progress-bar bg-success-green" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-                <p>Photoshop</p>
-                <div class="progress">
-                  <div class="progress-bar bg-success-green" role="progressbar" style="width: 88%" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-              </section>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <h2 class="card-title">My Skills</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-          </div>
-        </div>
-    </div>
-
-    <!--======================= Portfolio ====================-->
+    <!--======================= Services ====================
     <div class="">
     	<div class="card-deck mt-5">
     		<div class="card">
@@ -82,15 +51,6 @@
     		    <p class="card-text">Blurb</p>
     		  </div>
     		</div>
-    		<div class="card">
-    		<img src="<?php echo get_template_directory_uri(); ?>/img/write.png" class="card-img-top" alt="...">
-    		  <div class="card-body">
-    		    <h5 class="card-title">Copy Writing</h5>
-    		    <p class="card-text">Blurb.</p>
-    		  </div>
-    		</div>
-    	</div>
-    	<div class="card-deck mt-5">
         <div class="card">
           <img src="<?php echo get_template_directory_uri(); ?>/img/brand.png" class="card-img-top" alt="...">
           <div class="card-body">
@@ -98,25 +58,42 @@
             <p class="card-text">Blurb</p>
           </div>
         </div>
-        <div class="card">
-          <img src="<?php echo get_template_directory_uri(); ?>/img/project.png" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Project Management</h5>
-            <p class="card-text">Blurb</p>
-          </div>
-        </div>
-        <div class="card">
-          <img src="<?php echo get_template_directory_uri(); ?>/img/seo.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">SEO</h5>
-              <p class="card-text">Blurb.</p>
-            </div>
-        </div>
-
     	</div>
     </div>
-    </div>
+    </div> -->
 
+<!-- ======================= Skills ==================-->
+
+    <div class="card mt-5 mb-5 border-0" style="max-width: 100%;">
+      <div class="row about d-flex justify-content-center align-items-center">
+        <div class="col-md-7">
+          <div class="card-body">
+            <section class="skills">
+              <p>HTML</p>
+              <div class="progress">
+                <div class="progress-bar bg-success-green" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <p>CSS</p>
+              <div class="progress">
+                <div class="progress-bar bg-success-green" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <p>JavaScript</p>
+              <div class="progress">
+                <div class="progress-bar bg-success-green" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <p>Photoshop</p>
+              <div class="progress">
+                <div class="progress-bar bg-success-green" role="progressbar" style="width: 88%" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </section>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <h2 class="card-title">My Skills</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+      </div>
+  </div>
 
     <!-- ======================= Blog Posts ==================-->
     <section class="row justify-content-center work">
