@@ -12,10 +12,10 @@ $(function() {
 
   $(window).scroll(function() {
       var scroll = $(window).scrollTop();
-      if (scroll >= 750) {
+      if (scroll >= 700) {
           header.addClass("animate");
       } else {
-          header.removeClass("animate");
+          header.removeClass("animated");
       }
   });
 

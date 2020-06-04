@@ -249,6 +249,7 @@ figure.effect-ming:hover img {
 	font-family: 'Roboto Slab', serif;
 	width: 100%;
 	overflow-x:hidden;
+	height: 75vh;
 }
 .jumbo-content {
 	padding: 0 10px;
@@ -419,4 +420,10 @@ h1 {
 }
 .skills p {
 	color: white;
+}
+.post h2 {
+	text-align: left;
+}
+.post p {
+	text-align: left;
 }
