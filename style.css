@@ -387,6 +387,8 @@ img.about.card-img {
 #menu li {
   padding: 10px 0;
   font-size: 22px;
+	list-style-type: none;
+	text-align: left;
 }
 #menuToggle input:checked ~ ul{
   transform: none;

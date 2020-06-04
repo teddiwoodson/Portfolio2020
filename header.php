@@ -55,7 +55,7 @@
     Too bad the menu has to be inside of the button
     but hey, it's pure CSS magic.
     -->
-    <div id="menu">
+    <ul id="menu">
       <?php
         if(has_nav_menu('top-menu')) {
           wp_nav_menu(array('theme_location' => 'top-menu', 'container_class' => 'top-menu-class'));
@@ -63,7 +63,7 @@
           echo "Please select a top menu through the dashboard";
         }
       ?>
-    </div>
+    </ul>
   </div>
 </nav>
 
