@@ -484,9 +484,10 @@ div .card {
 }
 /* ============== Experience Carousel ================== */
 .carousel {
-    position: relative;
-    display: flex;
-    justify-content: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+	margin: 5px;
 }
 .carousel-indicators li {
 	background-color: #cca4a6;
@@ -502,4 +503,7 @@ div .card {
 }
 ul.card-text {
     padding: 0px 30px;
+}
+.arrows {
+	margin-top: 20px;
 }
