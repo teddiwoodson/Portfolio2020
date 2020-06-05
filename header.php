@@ -23,15 +23,6 @@
 
 <body class="container-fluid">
 <header>
-  <div class="row">
-    <div class="col-10">
-      <?php if(get_header_image() == '') {?>
-          <h1><a href="<?php echo get_home_url();?>"><?php bloginfo('name');?></a></h1><?php
-        }else {?>
-          <a href="<?php echo get_home_url();?>"><img src="<?php header_image();?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" atl="logo" /></a>
-        <?php } ?>
-    </div>
-    <div class="col-2">
       <!--    Made by Erik Terwan    -->
     <!--   24th of November 2015   -->
     <!--        MIT License        -->
@@ -68,10 +59,5 @@
         </ul>
       </div>
     </nav>
-
-    </div>
-
-  </div>
-
 
 </header>

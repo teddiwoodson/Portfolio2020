@@ -168,7 +168,7 @@ header {
   border: 0;
 	background-image: url(img/backgroundtexture.jpg);
 	background-color: #cca4a6;
-	height: 500px;
+	height: 100vh;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
