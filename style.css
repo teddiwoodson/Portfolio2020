@@ -530,8 +530,8 @@ div .card {
 }
 .card-header {
     border-bottom: solid;
-    border-color: red;
-		background-color: none;
+    border-color: #314247;
+		background-color: transparent;
 }
 
 .carousel {
