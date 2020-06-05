@@ -12,7 +12,7 @@ Text Domain: Assignment 2
 #cca4a6 — pink
 #F2EDE1 —white
 #647973 — light green
-#314247 — dark green
+#41566B — dark green
 */
 
 /*
@@ -51,15 +51,15 @@ body, html {
 h1, h2, a {
   font-family: 'Playfair Display', serif;
 	font-weight: 700;
-  color: #314247;
+  color: #41566B;
 }
 h3, h4, h5, h6 {
   font-family: 'Playfair Display', serif;
-  color: #314247;
+  color: #41566B;
 }
 p {
   font-family: 'Open Sans', sans-serif;
-  color: #314247;
+  color: #41566B;
 }
 
 a.btn.btn-primary.btn-lg {
@@ -120,7 +120,7 @@ div#logo-img {
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-  background: #314247;
+  background: #41566B;
   border-radius: 3px;
   z-index: 1;
   transform-origin: 4px 0px;
@@ -226,7 +226,7 @@ div#logo-img {
 
 ========================= */
 .teddi {
-    border: solid 5px #314247;
+    border: solid 5px #41566B;
     text-align: left;
 		padding: 10px 0;
 }
@@ -325,7 +325,7 @@ Portfolio post tiles
 
 ============================= */
 .work {
-	border: solid 5px #314247;
+	border: solid 5px #41566B;
 	margin: 15px 0 15px 0;
 	padding: 20px 0px 20px 0px;
 }
@@ -366,7 +366,7 @@ Portfolio post tiles
 
 .grid figure figcaption {
 	padding: 20px;
-	color: #314247;
+	color: #41566B;
 	font-size: 1.25em;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
@@ -404,7 +404,7 @@ Portfolio post tiles
 .grid figure h2,
 .grid figure p {
 	margin: 0;
-	color: #314247;
+	color: #41566B;
 }
 
 .grid figure p {
@@ -434,7 +434,7 @@ figure.effect-ming figcaption::before {
 	right: 30px;
 	bottom: 30px;
 	left: 30px;
-	border: 2px solid #314247;
+	border: 2px solid #41566B;
 	box-shadow: 0 0 0 30px rgba(255,255,255,0.2);
 	content: '';
 	opacity: 0;
@@ -463,7 +463,7 @@ figure.effect-ming p {
 figure.effect-ming:hover h2 {
 	-webkit-transform: scale(0.9);
 	transform: scale(0.9);
-	color: #314247;
+	color: #41566B;
 }
 
 figure.effect-ming:hover figcaption::before,
@@ -548,7 +548,7 @@ div .card {
 }
 .card-header {
     border-bottom: solid;
-    border-color: #314247;
+    border-color: #41566B;
 		background-color: transparent;
 }
 .accordion {
@@ -566,7 +566,7 @@ div .card {
 		background-color: #F2EDE1;
 }
 button.btn.btn-link {
-	color: #314247;
+	color: #41566B;
 }
 .carousel {
   position: relative;
@@ -584,7 +584,7 @@ button.btn.btn-link {
 	max-width: 699px;
 }
 .card-text li {
-	color: #314247;
+	color: #41566B;
 }
 ul.card-text {
     padding: 0px 30px;
