@@ -104,7 +104,7 @@
       </div>
     </div>
     <div class="divider-img col-md-5">
-      <img src="<?php echo get_template_directory_uri(); ?>/img/placeholder.jpg" class="about card-img" alt="...">
+      <img src="<?php echo get_template_directory_uri(); ?>/img/placeholder.jpg" class="card-img" alt="...">
     </div>
   </div>
 </section>
@@ -113,7 +113,7 @@
 <!-- ======================= Skills ==================-->
 <div class="container">
     <div class="card mt-5 mb-5 border-0" style="max-width: 100%;">
-      <div class="row about d-flex justify-content-center align-items-center">
+      <div class="row teddi d-flex justify-content-center align-items-center">
         <div class="col-md-7">
           <div class="card-body">
             <section class="skills">
