@@ -541,10 +541,13 @@ div .card {
 	background-color: #f7f7f7;
 	text-align: left;
 }
+.divider .col-md-7 {
+	padding-right: 0;
+}
 .accordion .card {
 		background-color: #f7f7f7;
 }
-.button.btn.btn-link {
+button.btn.btn-link {
 	color: #314247;
 }
 .carousel {
