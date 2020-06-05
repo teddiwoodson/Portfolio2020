@@ -233,6 +233,9 @@ div#logo-img {
 .teddi img {
 		margin: 15px 0 15px 0;
 }
+.teddi h2{
+	border-bottom: solid 1px #BF8B44;
+}
 
 .about {
 	background-color: #F2EDE1;
