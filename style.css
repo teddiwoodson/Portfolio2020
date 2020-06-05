@@ -249,7 +249,7 @@ section#counter-stats {
   font-size: 60px;
 }
 
-/*/ end count stats /*/
+/*/ end count stats /
 .divider {
 	background-color: #647973;
 	margin: 15px 0 15px 0;
@@ -262,7 +262,7 @@ section#counter-stats {
 }
 .counting {
 	font-family: 'Playfair Display', serif;
-}
+}*/
 
 /* =========================
 
@@ -539,6 +539,7 @@ div .card {
 }
 .divider {
 	background-color: #f7f7f7;
+	text-align: left;
 }
 .carousel {
   position: relative;
