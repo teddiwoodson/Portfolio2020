@@ -68,8 +68,10 @@ a.btn.btn-primary.btn-lg:hover {
 
 ========================= */
 /* ================ Navigation ============ */
-header {
-	x-index: 10000000;
+div#logo-img {
+  margin: 25px 0;
+  z-index: 10000000000000;
+  position: absolute;
 }
 /* Made by Erik Terwan * 24th of November 2015 * MIT license */
 #menuToggle {
