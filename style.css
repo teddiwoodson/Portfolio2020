@@ -464,7 +464,7 @@ figure.effect-ming:hover img {
 
 ========================= */
 
-/* ============== 2020 styles ================ */
+/* ============== 2020 styles ================
 div .card {
   border: 0;
 }
@@ -481,8 +481,8 @@ div .card {
 }
 .card-deck .card .card-body {
 	padding: 0;
-}
-/* ============== Experience Carousel ================== */
+}*/
+/* ============== Experience Carousel ==================
 .carousel {
   position: relative;
   display: flex;
@@ -506,15 +506,14 @@ ul.card-text {
 }
 .arrows {
 	margin-top: 20px;
-}
+}*/
 .scrolling-wrapper-flexbox {
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
-
-  .card {
-    flex: 0 0 auto;
-  }
+}
+.card {
+	flex: 0 0 auto;
 }
 .scrolling-wrapper {
   -webkit-overflow-scrolling: touch;
