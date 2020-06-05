@@ -23,7 +23,6 @@
 
 <body class="container-fluid">
 <header>
-<div class="container-fluid">
   <div class="row">
     <div class="col-10">
       <?php if(get_header_image() == '') {?>
@@ -73,7 +72,6 @@
     </div>
 
   </div>
-</div>
 
 
 </header>
