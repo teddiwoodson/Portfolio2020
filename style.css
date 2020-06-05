@@ -541,6 +541,9 @@ div .card {
 	background-color: #f7f7f7;
 	text-align: left;
 }
+.accordion.card.collapse {
+		background-color: #f7f7f7;
+}
 .carousel {
   position: relative;
   display: flex;
