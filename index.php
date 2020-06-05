@@ -38,10 +38,9 @@
 <!-- ======================= Horizontal Card ==================-->
 
 <section>
-  <div class="container">
   <div class="row align-items-center">
     <div class="col-md-7">
-        <div class="accordion" id="accordionExample">
+        <div class="accordion justify-content-center" id="accordionExample">
           <div class="card">
             <div class="card-header" id="headingOne">
               <h2 class="mb-0">
@@ -91,7 +90,6 @@
       <img src="<?php echo get_template_directory_uri(); ?>/img/placeholder.jpg" class="about card-img" alt="...">
     </div>
   </div>
-</div>
 </section>
 
   <div class="jumbotron2 jumbotron-fluid d-flex justify-content-center align-items-center">
