@@ -70,7 +70,7 @@
 </div>
 
     <!-- ======================= Blog Posts ==================-->
-<div class="container">
+<div class="container mb-5">
     <section class="row justify-content-center work">
       <div class="col-12">
         <h2>My Work</h2>
