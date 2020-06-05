@@ -69,10 +69,18 @@ a.btn.btn-primary.btn-lg:hover {
 ========================= */
 
 /* ================ Navigation ============ */
+.navbar {
+	position: absolute;
+	z-index: 10000;
+	background-color: transparent;
+}
 div#logo-img {
   margin: 25px 0;
   z-index: 10000000000000;
   position: absolute;
+}
+div#navbarSupportedContent {
+    background: white;
 }
 /* Made by Erik Terwan * 24th of November 2015 * MIT license */
 #menuToggle {
