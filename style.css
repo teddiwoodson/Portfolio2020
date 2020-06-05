@@ -583,4 +583,4 @@ ul.card-text {
 	margin-top: 20px;
 }
 /* focus rule */
-input, textarea, button {outline-color: transparent; }
+input:focus, textarea:focus, button:focus {outline-color: transparent; }
