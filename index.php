@@ -144,12 +144,16 @@
   </div>
 </div>
 
-<div class="jumbotron2 jumbotron-fluid d-flex justify-content-center align-items-center">
-  <div class="container">
-    <h2 class="display-4">Fluid jumbotron</h2>
-    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+<section>
+  <div class="row divider align-items-center">
+    <div class="divider-img col-md-5">
+      <img src="<?php echo get_template_directory_uri(); ?>/img/placeholder.jpg" class="card-img" alt="...">
+    </div>
+    <div class="col-md-7">
+      <p>content goes here</p>
+    </div>
   </div>
-</div>
+</section>
 
     <!-- ======================= Blog Posts ==================-->
 <div class="container mt-5 mb-5">
