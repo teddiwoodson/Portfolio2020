@@ -35,6 +35,22 @@
     	</div>
     </div>
 
+<!-- ======================= Horizontal Card ==================-->
+    <div class="card mb-3">
+  <div class="row no-gutters">
+    <div class="col-md-6">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <img src="<?php echo get_template_directory_uri(); ?>/img/background3.jpg" class="about card-img" alt="...">
+    </div>
+  </div>
+</div>
+
     <div class="jumbotron2 jumbotron-fluid d-flex justify-content-center align-items-center">
       <div class="container">
         <h2 class="display-4">Fluid jumbotron</h2>
