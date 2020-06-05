@@ -38,7 +38,7 @@
 <!-- ======================= Horizontal Card ==================-->
 
 <section>
-  <div class="row align-items-center">
+  <div class="row divider align-items-center">
     <div class="col-md-7">
         <div class="accordion justify-content-center" id="accordionExample">
           <div class="card">

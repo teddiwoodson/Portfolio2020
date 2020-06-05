@@ -535,8 +535,11 @@ div .card {
 }
 .accordion {
 	max-width: 600px;
+	margin: auto;
 }
-
+.divider {
+	background-color: #f7f7f7;
+}
 .carousel {
   position: relative;
   display: flex;
