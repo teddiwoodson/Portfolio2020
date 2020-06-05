@@ -9,9 +9,9 @@ Text Domain: Assignment 2
 
 */
 /*
-#cca4a6 — pink
+#BF8B44 — pink
 #F2EDE1 —white
-#647973 — light green
+#687A6D — light green
 #41566B — dark green
 */
 
@@ -63,14 +63,14 @@ p {
 }
 
 a.btn.btn-primary.btn-lg {
-  background-color: #647973;
+  background-color: #687A6D;
   border: none;
   border-radius: 0;
-  color: #F2EDE1;
+  color: white;
   margin-top: 5%;
 }
 a.btn.btn-primary.btn-lg:hover {
-  background-color: #cca4a6;
+  background-color: #BF8B44;
 }
 /* =========================
 
@@ -180,7 +180,7 @@ div#logo-img {
   }
 }
 .menu li a:hover {
-	color: #cca4a6;
+	color: #BF8B44;
 }
 /* =========================
 
@@ -190,7 +190,7 @@ div#logo-img {
 .jumbotron {
   border: 0;
 	background-image: url(img/backgroundtexture.jpg);
-	background-color: #cca4a6;
+	background-color: #BF8B44;
 	height: 100vh;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -205,7 +205,7 @@ div#logo-img {
 }
 .jumbotron2 {
   border: 0;
-	background-color: #647973;
+	background-color: #687A6D;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -270,7 +270,7 @@ section#counter-stats {
 
 /*/ end count stats /
 .divider {
-	background-color: #647973;
+	background-color: #687A6D;
 	margin: 15px 0 15px 0;
 	padding: 20px 0px 20px 0px;
 	text-align: left;
@@ -516,7 +516,7 @@ figure.effect-ming:hover img {
 
 ========================= */
 footer {
-	background-color: #cca4a6;
+	background-color: #BF8B44;
 	color: #F2EDE1;
 	margin: 15px 0 0 0;
 	padding: 20px 0px 20px 0px;
@@ -577,7 +577,7 @@ button.btn.btn-link {
 	margin: 5px;
 }
 .carousel-indicators li {
-	background-color: #cca4a6;
+	background-color: #BF8B44;
 }
 .carousel-indicators {
 	bottom: -50px;
