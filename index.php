@@ -35,8 +35,6 @@
     	</div>
     </div>
 
-<hr class="my-4">
-
 <!-- ======================= Skills ==================-->
 <div class="container">
     <div class="card mt-5 mb-5 border-0" style="max-width: 100%;">
@@ -70,8 +68,6 @@
       </div>
   </div>
 </div>
-
-<hr class="my-4">
 
     <!-- ======================= Blog Posts ==================-->
 <div class="container mt-5 mb-5">
