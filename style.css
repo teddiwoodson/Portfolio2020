@@ -79,7 +79,7 @@ div#logo-img {
   z-index: 10000000000000;
   position: absolute;
 }
-div#navbarSupportedContent {
+.show {
     background: white;
 }
 /* Made by Erik Terwan * 24th of November 2015 * MIT license */
