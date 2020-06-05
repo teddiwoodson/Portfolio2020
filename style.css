@@ -394,7 +394,7 @@ Portfolio post tiles
 .grid figure h2,
 .grid figure p {
 	margin: 0;
-	color: white;
+	color: #314247;
 }
 
 .grid figure p {
@@ -464,7 +464,7 @@ figure.effect-ming:hover p {
 }
 
 figure.effect-ming:hover figcaption {
-	background-color: rgba(247, 247, 247, .4)
+	background-color: rgba(247, 247, 247, .8)
 }
 
 figure.effect-ming:hover img {
