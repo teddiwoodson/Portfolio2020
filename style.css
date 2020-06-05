@@ -193,7 +193,12 @@ header {
 	width: 100%;
 	overflow-x:hidden;
 }
-
+.jumbotron2 h2 {
+	color:white;
+}
+.jumbotron2 p {
+	color:white;
+}
 /* =========================
 
   About Styles
