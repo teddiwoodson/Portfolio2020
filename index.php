@@ -37,7 +37,7 @@
 
 <!-- ======================= Horizontal Card ==================-->
 <div class="card mb-5 mt-5">
-  <div class="row">
+  <div class="row align-items-center">
     <div class="col-md-8">
       <div class="card-body">
         <h5 class="card-title">Card title</h5>
