@@ -218,6 +218,7 @@ div#logo-img {
 .teddi {
     border: solid 5px #314247;
     text-align: left;
+		padding: 10px 0;
 }
 .teddi img {
 		margin: 15px 0 15px 0;
@@ -314,7 +315,7 @@ Portfolio post tiles
 
 ============================= */
 .work {
-	background-color: #f7f7f7;
+	border: solid 5px #314247;
 	margin: 15px 0 15px 0;
 	padding: 20px 0px 20px 0px;
 }
