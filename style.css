@@ -79,7 +79,7 @@ div#logo-img {
   z-index: 10000000000000;
   position: absolute;
 }
-.show {
+.navbar .show {
     background: white;
 }
 /* Made by Erik Terwan * 24th of November 2015 * MIT license */
@@ -541,8 +541,11 @@ div .card {
 	background-color: #f7f7f7;
 	text-align: left;
 }
-.accordion.card.collapse {
+.accordion .card {
 		background-color: #f7f7f7;
+}
+.button.btn.btn-link {
+	color: #314247;
 }
 .carousel {
   position: relative;
