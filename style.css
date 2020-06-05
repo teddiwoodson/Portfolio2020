@@ -215,6 +215,14 @@ div#logo-img {
   About Styles
 
 ========================= */
+.teddi {
+    border: solid 5px #314247;
+    text-align: left;
+}
+.teddi img {
+		margin: 15px 0 15px 0;
+}
+
 .about {
 	background-color: #f7f7f7;
 	margin: 15px 0 15px 0;
