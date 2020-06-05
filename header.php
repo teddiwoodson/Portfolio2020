@@ -23,49 +23,43 @@
 
 <body class="container-fluid">
 <header>
-      <!--    Made by Erik Terwan    -->
-    <!--   24th of November 2015   -->
-    <!--        MIT License        -->
-    <nav role='navigation'>
-      <div id="menuToggle">
-        <!--
-        A fake / hidden checkbox is used as click reciever,
-        so you can use the :checked selector on it.
-        -->
-        <input type="checkbox" />
 
-        <!--
-        Some spans to act as a hamburger.
-
-        They are acting like a real hamburger,
-        not that McDonalds stuff.
-        -->
-        <span></span>
-        <span></span>
-        <span></span>
-
-        <!--
-        Too bad the menu has to be inside of the button
-        but hey, it's pure CSS magic.
-        -->
-        <ul id="menu">
-          <?php
-            if(has_nav_menu('top-menu')) {
-              wp_nav_menu(array('theme_location' => 'top-menu', 'container_class' => 'top-menu-class'));
-            } else{
-              echo "Please select a top menu through the dashboard";
-            }
-          ?>
+  <div class="container example2">
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar2">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://disputebills.com"><img src="https://res.cloudinary.com/candidbusiness/image/upload/v1455406304/dispute-bills-chicago.png" alt="Dispute Bills">
+        </a>
+      </div>
+      <div id="navbar2" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li class="divider"></li>
+              <li class="dropdown-header">Nav header</li>
+              <li><a href="#">Separated link</a></li>
+              <li><a href="#">One more separated link</a></li>
+            </ul>
+          </li>
         </ul>
       </div>
-    </nav>
-    <div class="col-lg-3" id="logo-img">
-    <?php if(get_header_image() == '') {?>
-        <h1><a href="<?php echo get_home_url();?>"><?php bloginfo('name');?></a></h1><?php
-      }else {?>
-        <a href="<?php echo get_home_url();?>"><img src="<?php header_image();?>" height="<?php echo get_custom_header()->height; ?>" width="<?php echo get_custom_header()->width; ?>" atl="logo" /></a>
-
-      <?php } ?>
+      <!--/.nav-collapse -->
     </div>
+    <!--/.container-fluid -->
+  </nav>
+</div>
 
 </header>
