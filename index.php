@@ -89,7 +89,7 @@
       </div>
     </div>
     <div class="col-md-4">
-      <img src="..." class="card-img" alt="...">
+      <img src="<?php echo get_template_directory_uri(); ?>/img/placeholder.jpg" class="about card-img" alt="...">
     </div>
   </div>
 </div>
