@@ -23,46 +23,14 @@ $(function() {
 </script>
 
 <script type="text/javascript">
-// number count for stats, using jQuery animate
-
-$('.counting').each(function() {
-  var $this = $(this),
-      countTo = $this.attr('data-count');
-
-  $({ countNum: $this.text()}).animate({
-    countNum: countTo
-  },
-
-  {
-
-    duration: 5000,
-    easing:'linear',
-    step: function() {
-      $this.text(Math.floor(this.countNum));
-    },
-    complete: function() {
-      $this.text(this.countNum);
-      //alert('finished');
+function handleFirstTab(e) {
+    if (e.keyCode === 9) { // the "I am a keyboard user" key
+        document.body.classList.add('user-is-tabbing');
+        window.removeEventListener('keydown', handleFirstTab);
     }
-
-  });
-
-
-});
-
-</script>
-
-<script type="text/javascript">
-var jumboHeight = $('.jumbotron2').outerHeight();
-function parallax(){
-    var scrolled = $(window).scrollTop();
-    $('.bg').css('height', (jumboHeight-scrolled) + 'px');
 }
 
-$(window).scroll(function(e){
-    parallax();
-});
-
+window.addEventListener('keydown', handleFirstTab);
 </script>
 
 </body>
