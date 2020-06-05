@@ -521,6 +521,14 @@ div .card {
 	padding: 0;
 }
 /* ============== Experience Carousel ================== */
+.divider-img {
+	padding: 0;
+	margin: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
 .carousel {
   position: relative;
   display: flex;

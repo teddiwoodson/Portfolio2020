@@ -88,7 +88,7 @@
 </div>
       </div>
     </div>
-    <div class="col-md-4">
+    <div class="divider-img col-md-4">
       <img src="<?php echo get_template_directory_uri(); ?>/img/placeholder.jpg" class="about card-img" alt="...">
     </div>
   </div>
