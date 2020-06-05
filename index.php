@@ -38,14 +38,10 @@
 <!-- ======================= Horizontal Card ==================-->
 <div class="card mb-5 mt-5">
   <div class="row">
-    <div class="col-md-6">
-      <div class="jumbotron2 jumbotron-fluid">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-    </div>
-    </div>
-    <div class="col-md-6">
-      <div class="accordion" id="accordionExample">
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <div class="accordion" id="accordionExample">
   <div class="card">
     <div class="card-header" id="headingOne">
       <h2 class="mb-0">
@@ -90,7 +86,10 @@
     </div>
   </div>
 </div>
-
+      </div>
+    </div>
+    <div class="col-md-4">
+      <img src="..." class="card-img" alt="...">
     </div>
   </div>
 </div>
