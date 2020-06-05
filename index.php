@@ -40,6 +40,7 @@
 <section>
   <div class="row divider align-items-center">
     <div class="col-md-7">
+      <div class="container">
         <div class="accordion justify-content-center" id="accordionExample">
           <div class="card">
             <div class="card-header" id="headingOne">
@@ -85,6 +86,8 @@
           </div>
           </div>
         </div>
+
+      </div>
     </div>
     <div class="divider-img col-md-5">
       <img src="<?php echo get_template_directory_uri(); ?>/img/placeholder.jpg" class="about card-img" alt="...">
