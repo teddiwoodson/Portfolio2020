@@ -40,7 +40,6 @@
   <div class="row align-items-center">
     <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
         <div class="accordion" id="accordionExample">
   <div class="card">
     <div class="card-header" id="headingOne">
