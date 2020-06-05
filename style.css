@@ -311,7 +311,9 @@ section#counter-stats {
 .progress {
 	background-color: #F2EDE1;
 }
-
+.card-img {
+	max-height: 550px;
+}
 /* =========================
 
   quote Styles
