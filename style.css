@@ -356,8 +356,7 @@ Portfolio post tiles
 
 .grid figure figcaption {
 	padding: 20px;
-	color: #fff;
-	text-transform: uppercase;
+	color: #314247;
 	font-size: 1.25em;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
@@ -465,7 +464,7 @@ figure.effect-ming:hover p {
 }
 
 figure.effect-ming:hover figcaption {
-	background-color: rgba(49, 66, 71, 0.4)
+	background-color: rgba(247, 247, 247, 1)
 }
 
 figure.effect-ming:hover img {
