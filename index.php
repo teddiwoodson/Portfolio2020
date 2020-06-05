@@ -74,7 +74,7 @@
 <hr class="my-4">
 
     <!-- ======================= Blog Posts ==================-->
-<div class="container mb-5">
+<div class="container mt-5 mb-5">
     <section class="row justify-content-center work">
       <div class="col-12">
         <h2>My Work</h2>
