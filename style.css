@@ -453,7 +453,7 @@ figure.effect-ming p {
 figure.effect-ming:hover h2 {
 	-webkit-transform: scale(0.9);
 	transform: scale(0.9);
-	color: white;
+	color: #314247;
 }
 
 figure.effect-ming:hover figcaption::before,
@@ -464,7 +464,7 @@ figure.effect-ming:hover p {
 }
 
 figure.effect-ming:hover figcaption {
-	background-color: rgba(247, 247, 247, 1)
+	background-color: rgba(247, 247, 247, .4)
 }
 
 figure.effect-ming:hover img {
