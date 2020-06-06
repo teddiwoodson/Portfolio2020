@@ -69,14 +69,14 @@ p {
 }
 
 a.btn.btn-primary.btn-lg {
-  background-color: #41566B;
+  background-color: #BF8B44; 
   border: none;
   border-radius: 0;
   color: white;
   margin-top: 10px;
 }
 a.btn.btn-primary.btn-lg:hover {
-  background-color: #BF8B44;
+  background-color: #41566B;
 }
 /* =========================
 
