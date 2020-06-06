@@ -24,7 +24,9 @@
     		    <div class="col-md-7">
     		      <div class="card-body">
     		        <h2 class="card-title">Hi, I'm Teddi!</h5>
-    		        <p class="card-text">My name is Teddi Woodson I'm currently looking for new opportunities to create content as a digital marketer. For the past five years, I've worked in a variety of industries to cultivate my skills as a communications professional. <br> Most recently, I worked as a Graphic Designer for the Tampa Bay Lightning. While working for the Lightning, I also completed my  Master’s program specializing in Web Design.</p>
+    		        <p class="card-text">My name is Teddi Woodson I'm currently looking for new opportunities to create content as a digital marketer. For the past five years, I've worked in a variety of industries to cultivate my skills as a communications professional.</p>
+
+                <p class="card-text"> Most recently, I worked as a Graphic Designer for the Tampa Bay Lightning. While working for the Lightning, I also completed my  Master’s program specializing in Web Design.</p>
 
                 <p class="card-text"> When I’m not designing or editing, I enjoy watching The Office, going to the beach and trying new foods.</p>
 
