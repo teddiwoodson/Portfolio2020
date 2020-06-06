@@ -12,7 +12,7 @@ $(function() {
 
   $(window).scroll(function() {
       var scroll = $(window).scrollTop();
-      if (scroll >= 1000) {
+      if (scroll >= 1100) {
           header.addClass("animate");
       } else {
           header.removeClass("animated");
