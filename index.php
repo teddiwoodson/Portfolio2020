@@ -55,7 +55,15 @@
 
             <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
               <div class="card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                <h3 class="card-title">Graphic Designer, Tampa Bay Lightning</h3>
+                <h6 class="card-subtitle mb-2 text-muted"></h6>
+                <h6 class="card-subtitle mb-2 text-muted">October 2019 - May 2020</h6>
+                <ul class="card-text">
+                  <li>Designed print & digital assets for the Tampa Bay Lightning & affiliate organizations including AMALIE Arena, the University of South Florida & the Yuengling Center</li>
+                  <li>Worked on deadlines to produce collateral such as flyers, web advertisements, animated graphics, & social posts for new & ongoing campaigns</li>
+                  <li>Collaborated with other departments to create assets for distribution to 600,000+ fans</li>
+                  <li>Ensured final graphics & layouts were visually appealing & adhered to brand guidelines</li>
+                </ul>
               </div>
             </div>
           </div>
