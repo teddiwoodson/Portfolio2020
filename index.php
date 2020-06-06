@@ -197,6 +197,17 @@
       </section>
 </div>
 
+<section>
+  <div class="row divider align-items-center">
+    <div class="col-md-7">
+      <p>Contact</p>
+    </div>
+    <div class="divider-img col-md-5">
+      <img src="<?php echo get_template_directory_uri(); ?>/img/experience.jpg" class="card-img" alt="...">
+    </div>
+  </div>
+</section>
+
     <!--======================= Resume ====================-->
 
 <?php get_footer(); ?>
