@@ -143,7 +143,7 @@
               <div class="progress">
                 <div class="progress-bar bg-success-green" role="progressbar" style="width: 88%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
-              <p>Social Media</p>
+              <p>Social Media Management</p>
               <div class="progress">
                 <div class="progress-bar bg-success-green" role="progressbar" style="width: 88%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
