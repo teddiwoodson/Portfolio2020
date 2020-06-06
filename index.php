@@ -128,19 +128,19 @@
             <section class="skills">
               <p>Web Design</p>
               <div class="progress">
-                <div class="progress-bar bg-success-green" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar bg-success-green" role="progressbar" style="width: 100%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
-              <p>Adobe Creative Suite</p>
+              <p>Strategic Communication</p>
               <div class="progress">
-                <div class="progress-bar bg-success-green" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar bg-success-green" role="progressbar" style="width: 100%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
               <p>Branding</p>
               <div class="progress">
                 <div class="progress-bar bg-success-green" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
-              <p>Project Management</p>
+              <p>Graphic Design</p>
               <div class="progress">
-                <div class="progress-bar bg-success-green" role="progressbar" style="width: 88%" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"></div>
+                <div class="progress-bar bg-success-green" role="progressbar" style="width: 88%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
             </section>
           </div>
