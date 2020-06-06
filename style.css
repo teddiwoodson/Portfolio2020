@@ -551,6 +551,8 @@ div .card {
 /* ============== Experience Carousel ================== */
 .divider .card-body {
     background-color: #f2ede1;
+		font-family: 'Open Sans', sans-serif;
+	  color: #41566B;
 }
 .jumbotron2  {
 	padding: 0;
