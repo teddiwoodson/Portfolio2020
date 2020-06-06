@@ -552,12 +552,13 @@ div .card {
 .divider .card-body {
     background-color: #f2ede1;
 }
-.divider-img img {
+.jumbotron2  {
 	padding: 0;
 	margin: 0;
   height: 100%;
   width: 100%;
   object-fit: cover;
+	background-color: red;
 }
 .card-header {
     border-bottom: solid;
