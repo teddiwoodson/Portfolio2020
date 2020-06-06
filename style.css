@@ -85,6 +85,9 @@ a.btn.btn-primary.btn-lg:hover {
 ========================= */
 
 /* ================ Navigation ============ */
+nav h2 {
+	text-align: center;
+}
 .navbar {
 	position: absolute;
 	z-index: 10000;
