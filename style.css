@@ -7,16 +7,6 @@ Version: 1.0
 License: Open
 Text Domain: Assignment 2
 
-*/
-/*
-#BF8B44 — pink
-#F2EDE1 —white
-#41566B — light green
-#41566B — dark green
-*/
-
-/*
-
 Blue — #41566B
 Tan — #F2EDE1
 Pink — #EFDBDB
@@ -107,96 +97,6 @@ div#logo-img {
 .navbar .show {
     background: white;
 }
-/* Made by Erik Terwan * 24th of November 2015 * MIT license */
-#menuToggle {
-  display: block;
-  position: absolute;
-  top: 50px;
-  right: 50px;
-  z-index: 1;
-  -webkit-user-select: none;
-  user-select: none;
-}
-#menuToggle input {
-  display: block;
-  width: 40px;
-  height: 32px;
-  position: absolute;
-  top: -7px;
-  left: -5px;
-  cursor: pointer;
-  opacity: 0; /* hide this */
-  z-index: 2; /* and place it over the hamburger */
-  -webkit-touch-callout: none;
-}
-#menuToggle span {
-  display: block;
-  width: 33px;
-  height: 4px;
-  margin-bottom: 5px;
-  position: relative;
-  background: #41566B;
-  border-radius: 3px;
-  z-index: 1;
-  transform-origin: 4px 0px;
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              opacity 0.55s ease;
-}
-#menuToggle span:first-child{
-  transform-origin: 0% 0%;
-}
-#menuToggle span:nth-last-child(2){
-  transform-origin: 0% 100%;
-}
-#menuToggle input:checked ~ span{
-  opacity: 1;
-  transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
-}
-#menuToggle input:checked ~ span:nth-last-child(3) {
-  opacity: 0;
-  transform: rotate(0deg) scale(0.2, 0.2);
-}
-#menuToggle input:checked ~ span:nth-last-child(2) {
-  opacity: 1;
-  transform: rotate(-45deg) translate(0, -1px);
-}
-#menu {
-  position: absolute;
-  width: 300px;
-  margin: -100px 0 0 0;
-  padding: 50px;
-  padding-top: 125px;
-  right: -100px;
-  background: #F2EDE1;
-  list-style-type: none;
-  -webkit-font-smoothing: antialiased;
-  transform-origin: 0% 0%;
-  transform: translate(100%, 0);
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-}
-#menu li {
-  padding: 10px 0;
-  font-size: 22px;
-	list-style-type: none;
-	text-align: left;
-}
-#menuToggle input:checked ~ ul{
-  transform: none;
-  opacity: 1;
-}
-@media screen and (max-width: 768px) {
-  #menu {
-    transform: none;
-    opacity: 0;
-
-    transition: opacity 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-  }
-}
-.menu li a:hover {
-	color: #BF8B44;
-}
 /* =========================
 
   Jumbotron Styles
@@ -252,42 +152,6 @@ div#logo-img {
   Counter Styles
 
 ========================= */
-@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
-
-/*/ start count stats /*/
-
-section#counter-stats {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 400px;
-}
-
-.stats {
-  text-align: center;
-  font-size: 35px;
-  font-weight: 700;
-}
-
-.stats .fa {
-  color: white;
-  font-size: 60px;
-}
-
-/*/ end count stats /
-.divider {
-	background-color: #41566B;
-	margin: 15px 0 15px 0;
-	padding: 20px 0px 20px 0px;
-	text-align: left;
-	color: white;
-}
-.divider h5 {
-	color: white;
-}
-.counting {
-	font-family: 'Playfair Display', serif;
-}*/
 
 /* =========================
 
@@ -594,31 +458,7 @@ button.btn {
 	font-size: inherit;
 	padding-bottom: 6px;
 }
-.carousel {
-  position: relative;
-  display: flex;
-  justify-content: center;
-	margin: 5px;
-}
-.carousel-indicators li {
-	background-color: #BF8B44;
-}
-.carousel-indicators {
-	bottom: -50px;
-}
-.carousel-inner {
-	max-width: 699px;
-}
-.card-text li {
-	color: #41566B;
-}
+
 ul.card-text {
     padding: 0px 30px;
-}
-.arrows {
-	margin-top: 20px;
-}
-/* focus rule */
-input:focus, textarea:focus, button:focus {
-	outline-color: transparent;
 }
