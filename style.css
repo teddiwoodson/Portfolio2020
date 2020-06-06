@@ -189,8 +189,8 @@ div#logo-img {
 ========================= */
 .jumbotron {
   border: 0;
-	background-image: url(img/backgroundtexture.jpg);
-	background-color: #BF8B44;
+	/*background-image: url(img/backgroundtexture.jpg);*/
+	background-color: #F2EDE1;
 	height: 100vh;
 	background-position: center;
 	background-repeat: no-repeat;
