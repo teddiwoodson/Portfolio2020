@@ -48,15 +48,13 @@
             <div class="card-header" id="headingOne">
               <h2 class="mb-0">
                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Collapsible Group Item #1
+                  Graphic Designer, Tampa Bay Lightning
                 </button>
               </h2>
             </div>
 
             <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
               <div class="card-body">
-                <h3 class="card-title">Graphic Designer, Tampa Bay Lightning</h3>
-                <h6 class="card-subtitle mb-2 text-muted"></h6>
                 <h6 class="card-subtitle mb-2 text-muted">October 2019 - May 2020</h6>
                 <ul class="card-text">
                   <li>Designed print & digital assets for the Tampa Bay Lightning & affiliate organizations including AMALIE Arena, the University of South Florida & the Yuengling Center</li>
