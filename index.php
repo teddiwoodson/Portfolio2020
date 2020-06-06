@@ -24,11 +24,11 @@
     		    <div class="col-md-7">
     		      <div class="card-body">
     		        <h2 class="card-title">Hi, I'm Teddi!</h5>
-    		        <p class="card-text">My name is Teddi Woodson and I'm an emerging digital content creator currently seeking opportunities to showcase my skills in the marketing space. I believe that each and every one of us has a story to tell and I want be a part of telling those stories through the creation of written, graphic and web-based content.</p>
+    		        <p class="card-text">I'm an emerging digital content creator currently seeking opportunities to showcase my skills in the marketing space. I believe that each and every one of us has a story to tell and I want be a part of telling those stories through the creation of written, graphic and web-based content.</p>
 
-                <p class="card-text">I recently earned a Master’s Degree in Mass Communication from the University of Florida, where I specialized in web design. While completing my degree I also worked as a Graphic Designer for the Tampa Bay Lightning. Now that I’ve finished my degree, I am looking for new opportunities that will allow me to put my marketing, development and design skills into practice.</p>
+                <p class="card-text">I recently earned a Master’s Degree in Mass Communication from the University of Florida, where I specialized in web design. While completing my degree I also worked as a Graphic Designer for the Tampa Bay Lightning.</p>
 
-                <p class="card-text">Feel free to check out my resume, take a look at my work, or send me a message!</p>
+                <p class="card-text">Now that I’ve finished my degree, I am looking for new opportunities that will allow me to put my marketing, development and design skills into practice. Feel free to check out my resume, take a look at my work, or send me a message!</p>
 
                 <a href="<?php echo get_template_directory_uri(); ?>/img/resume.jpg" target="_blank" type="button" class="btn btn-primary btn-lg">Download Resume</a>
                 <a href="mailto: teddiwoodson@gmail.com" target="_blank" type="button" class="btn btn-primary btn-lg">Get in Touch</a>
