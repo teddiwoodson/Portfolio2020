@@ -187,6 +187,9 @@ div#logo-img {
   Jumbotron Styles
 
 ========================= */
+.jumbotron h1 {
+	letter-spacing: 5px;
+}
 .jumbotron {
   border: 0;
 	/*background-image: url(img/backgroundtexture.jpg);*/
