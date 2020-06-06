@@ -570,7 +570,7 @@ div .card {
 }
 .card-header button {
 	vertical-align: bottom;
-	padding-bottom: 2px;
+	padding: 0;
 }
 
 .accordion {
