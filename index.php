@@ -26,11 +26,12 @@
     		        <h2 class="card-title">Hi, I'm Teddi!</h5>
     		        <p class="card-text">My name is Teddi Woodson and I am an emerging digital content creator currently seeking opportunities to showcase my skills in the digital marketing space. I believe that each and every one of us has a story to tell. I want be a part of telling that story through the creation of written, graphic and web-based content.</p>
 
-                <p class="card-text">Now that I’ve finished my degree, I am looking for new experiences that will allow me to put my marketing, development and design skills into practice. Feel free to check out my resume, take a look at my work, or send me a message at <a href = "mailto: teddiwoodson@gmail.com">teddiwoodson@gmail.com</a></p>
+                <p class="card-text">I recently earned a Master’s Degree in Mass Communication from the University of Florida. As a graduate student, I specialized in web design and became proficient in HTML, CSS and JavaScript. While completing my degree I also worked as a seasonal Graphic Designer for the Tampa Bay Lightning. </p>
 
-                <p class="card-text">When I’m not designing or editing, you can usually find me watching The Office, drinking coffee, or playing Toon Blast.</p>
+                <p class="card-text">Now that I’ve finished my degree, I am looking for new experiences that will allow me to put my marketing, development and design skills into practice. Feel free to check out my resume, take a look at my work, or send me a message!</p>
 
                 <a href="<?php echo get_template_directory_uri(); ?>/img/resume.jpg" target="_blank" type="button" class="btn btn-primary btn-lg">Download Resume</a>
+                <a href="mailto: teddiwoodson@gmail.com" target="_blank" type="button" class="btn btn-primary btn-lg">Get in Touch</a>
     		      </div>
     		    </div>
     	  	</div>
