@@ -519,10 +519,12 @@ figure.effect-ming:hover img {
 
 ========================= */
 footer {
-	background-color: #BF8B44;
-	color: #F2EDE1;
+	background-color: #41566B;
 	margin: 15px 0 0 0;
 	padding: 20px 0px 20px 0px;
+}
+footer p {
+	color: white;
 }
 
 /* ============== 2020 styles ================ */
