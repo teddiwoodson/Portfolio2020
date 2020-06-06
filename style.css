@@ -563,9 +563,14 @@ div .card {
 	background-color: red;
 }
 .card-header {
-    border-bottom: solid;
-    border-color: #41566B;
-		background-color: transparent;
+  border-bottom: solid;
+  border-color: #41566B;
+	background-color: transparent;
+	padding: 0;
+}
+.card-header button {
+	vertical-align: bottom;
+	padding: 0;
 }
 .accordion {
 	max-width: 600px;
