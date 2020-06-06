@@ -48,7 +48,7 @@
             <div class="card-header" id="headingOne">
               <h5 class="mb-0">
                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  Graphic Designer, Tampa Bay Lightning
+                  Graphic Designer
                 </button>
               </h5>
               <h6 class="card-subtitle mb-2 text-muted">Tampa Bay Lightning</h6>
@@ -70,9 +70,10 @@
           <div class="card-header" id="headingTwo">
             <h5 class="mb-0">
               <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                Marketing and Communications Intern, Center for Arts in Medicine
+                Marketing and Communications Intern
               </button>
             </h5>
+            <h6 class="card-subtitle mb-2 text-muted">Center for Arts in Medicine</h6>
           </div>
           <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
             <div class="card-body">
@@ -90,9 +91,10 @@
           <div class="card-header" id="headingThree">
             <h5 class="mb-0">
               <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                Marketing and Communications Intern, FIS Global
+                Marketing and Communications Intern
               </button>
             </h5>
+            <h6 class="card-subtitle mb-2 text-muted">FIS Global</h6>
           </div>
           <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
             <div class="card-body">

@@ -589,10 +589,10 @@ div .card {
 }
 button.btn.btn-link {
 	color: #41566B;
-	padding-bottom: 10px;
 }
 button.btn {
 	font-size: inherit;
+	padding-bottom: 6px;
 }
 .carousel {
   position: relative;
