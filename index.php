@@ -24,9 +24,9 @@
     		    <div class="col-md-7">
     		      <div class="card-body">
     		        <h2 class="card-title">Hi, I'm Teddi!</h5>
-    		        <p class="card-text">My name is Teddi Woodson and I'm actively seeking opportunities to create content in the marketing space. For the past four years, I've worked in a variety of industries to cultivate my skills as a communications practitioner.</p>
+    		        <p class="card-text">My name is Teddi Woodson and I am an emerging digital content creator currently seeking opportunities to showcase my skills in the digital marketing space. I believe that each and every one of us has a story to tell. I want be a part of telling that story through the creation of written, graphic and web-based content.</p>
 
-                <p class="card-text">Most recently, I worked as a Graphic Designer for the Tampa Bay Lightning. During that time, I also completed a Master’s program through the University of Florida, where I specialized in Web Design.</p>
+                <p class="card-text">Now that I’ve finished my degree, I am looking for new experiences that will allow me to put my marketing, development and design skills into practice. Feel free to check out my resume, take a look at my work, or send me a message at <a href = "mailto: teddiwoodson@gmail.com">teddiwoodson@gmail.com</a></p>
 
                 <p class="card-text">When I’m not designing or editing, you can usually find me watching The Office, drinking coffee, or playing Toon Blast.</p>
 
@@ -142,12 +142,16 @@
               <div class="progress">
                 <div class="progress-bar bg-success-green" role="progressbar" style="width: 88%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
+              <p>Social Media</p>
+              <div class="progress">
+                <div class="progress-bar bg-success-green" role="progressbar" style="width: 88%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
             </section>
           </div>
         </div>
         <div class="col-md-4">
           <h2 class="card-title">My Skills</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p class="card-text">I am an emerging digital content creator proficient in HTML, CSS, JavaScript and the Adobe Creative Suite. Over the last few years, I have focused on cultivating my communication skills by expanding my knowledge of strategic communication, Search Engine Optimization (SEO) and social media marketing.</p>
         </div>
       </div>
   </div>
