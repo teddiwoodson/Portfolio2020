@@ -572,6 +572,7 @@ div .card {
 	vertical-align: bottom;
 	padding: 0;
 }
+
 .accordion {
 	max-width: 600px;
 	margin: auto;
@@ -588,6 +589,9 @@ div .card {
 }
 button.btn.btn-link {
 	color: #41566B;
+}
+button.btn {
+	font-size: inherit;
 }
 .carousel {
   position: relative;

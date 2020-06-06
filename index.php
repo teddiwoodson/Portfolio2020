@@ -46,11 +46,11 @@
         <div class="accordion justify-content-center" id="accordionExample">
           <div class="card">
             <div class="card-header" id="headingOne">
-              <h2 class="mb-0">
+              <h5 class="mb-0">
                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                   Graphic Designer, Tampa Bay Lightning
                 </button>
-              </h2>
+              </h5>
             </div>
 
             <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
@@ -67,11 +67,11 @@
           </div>
           <div class="card">
           <div class="card-header" id="headingTwo">
-            <h2 class="mb-0">
+            <h5 class="mb-0">
               <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                 Marketing and Communications Intern, Center for Arts in Medicine
               </button>
-            </h2>
+            </h5>
           </div>
           <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
             <div class="card-body">
@@ -87,11 +87,11 @@
           </div>
           <div class="card">
           <div class="card-header" id="headingThree">
-            <h2 class="mb-0">
+            <h5 class="mb-0">
               <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                 Marketing and Communications Intern, FIS Global
               </button>
-            </h2>
+            </h5>
           </div>
           <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
             <div class="card-body">
