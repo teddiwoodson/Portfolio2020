@@ -151,7 +151,7 @@
         </div>
         <div class="col-md-4">
           <h2 class="card-title">My Skills</h5>
-            <p class="card-text">I am an emerging digital content creator proficient in HTML, CSS, JavaScript and the Adobe Creative Suite. Over the last few years, I have focused on cultivating my communication skills by expanding my knowledge of strategic communication, Search Engine Optimization (SEO) and social media marketing.</p>
+            <p class="card-text">I am proficient in HTML, CSS, JavaScript and the Adobe Creative Suite. Over the past few years, I have focused also worked to expand my knowledge of strategic communication, Search Engine Optimization (SEO) and social media marketing.</p>
         </div>
       </div>
   </div>
