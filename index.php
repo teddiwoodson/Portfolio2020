@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
     <!--======================= Header ====================-->
-    	<main class="">
+    	<main class="" id="home">
         <div class="jumbotron jumbotron-fluid d-flex justify-content-center align-items-center">
           <div class="jumbo-content">
           <h1>TEDDI WOODSON</h1>
@@ -15,7 +15,7 @@
     	</main>
 
     <!--======================= About ====================-->
-    	<div class="container">
+    	<div class="container" id="about">
     		<div class="card mt-5 mb-5 border-0" style="max-width: 100%;">
     	  	<div class="row teddi d-flex justify-content-center align-items-center">
     	    	<div class="col-md-4">
@@ -37,9 +37,9 @@
     	</div>
     </div>
 
-<!-- ======================= Horizontal Card ==================-->
+<!-- ======================= Experience ==================-->
 
-<section>
+<section id="experience">
   <div class="row divider align-items-center">
     <div class="col-md-7">
       <div class="container">
@@ -176,7 +176,7 @@
 </section>
 
     <!-- ======================= Blog Posts ==================-->
-<div class="container mt-5 mb-5">
+<div class="container mt-5 mb-5" id="work">
     <section class="row justify-content-center work">
       <div class="col-12">
         <h2>My Work</h2>
@@ -200,17 +200,6 @@
       ?>
       </section>
 </div>
-
-<section>
-  <div class="row divider align-items-center">
-    <div class="col-md-7">
-      <p>Contact</p>
-    </div>
-    <div class="divider-img col-md-5">
-      <img src="<?php echo get_template_directory_uri(); ?>/img/experience.jpg" class="card-img" alt="...">
-    </div>
-  </div>
-</section>
 
     <!--======================= Resume ====================-->
 

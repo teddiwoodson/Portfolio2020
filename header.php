@@ -36,16 +36,13 @@
         <a class="nav-link" href="<?php echo get_home_url();?>">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="#about">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Experience</a>
+        <a class="nav-link" href="#experience">Experience</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Portfolio</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
+        <a class="nav-link" href="#portfolio">Portfolio</a>
       </li>
     </ul>
   </div>
