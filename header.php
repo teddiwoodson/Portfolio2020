@@ -42,7 +42,7 @@
         <a class="nav-link" href="#experience">Experience</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#portfolio">Portfolio</a>
+        <a class="nav-link" href="#work">Portfolio</a>
       </li>
     </ul>
   </div>
