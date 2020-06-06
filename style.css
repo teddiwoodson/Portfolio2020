@@ -73,7 +73,7 @@ a.btn.btn-primary.btn-lg {
   border: none;
   border-radius: 0;
   color: white;
-  margin-top: 5%;
+  margin-top: 10px;
 }
 a.btn.btn-primary.btn-lg:hover {
   background-color: #BF8B44;
