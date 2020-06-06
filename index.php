@@ -24,8 +24,11 @@
     		    <div class="col-md-7">
     		      <div class="card-body">
     		        <h2 class="card-title">Hi, I'm Teddi!</h5>
-    		        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    		        <p class="card-text">Thanks for dropping by! My name is Teddi Woodson and I recently graduated with a Master’s Degree from the University of Florida. For the past five years, I have worked in a variety of industries to cultivate my skills as a communications professional. Most recently, I worked as a Graphic Designer for the Tampa Bay Lightning hockey team. In this role, I created both print and digital assets to be distributed by the Tampa Bay Lightning and all affiliate organizations.</p>
+                
+                <p class="card-text">While working for the Lightning, I also completed my  Master’s program specializing in Web Design. In this program I received formal training on strategic communication, web development, and graphic design.</p>
+
+                <p class="card-text">Now that I’ve finished my degree, I am looking for new opportunities to create content in the digital marketing space.</p>
                 <a href="<?php echo get_template_directory_uri(); ?>/img/resume.jpg" target="_blank" type="button" class="btn btn-primary btn-lg">Download Resume</a>
     		      </div>
     		    </div>
