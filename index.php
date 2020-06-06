@@ -51,6 +51,7 @@
                   Graphic Designer, Tampa Bay Lightning
                 </button>
               </h5>
+              <h6 class="card-subtitle mb-2 text-muted">Tampa Bay Lightning</h6>
             </div>
 
             <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
