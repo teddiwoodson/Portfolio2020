@@ -93,7 +93,7 @@ nav h2 {
 	z-index: 10000;
 	background-color: transparent;
 }
-.nav-link {
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
 	color: #41566B;
 }
 div#logo-img {
