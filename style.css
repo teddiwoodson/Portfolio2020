@@ -11,7 +11,7 @@ Text Domain: Assignment 2
 /*
 #BF8B44 — pink
 #F2EDE1 —white
-#687A6D — light green
+#41566B — light green
 #41566B — dark green
 */
 
@@ -20,7 +20,7 @@ Text Domain: Assignment 2
 Blue — #41566B
 Tan — #F2EDE1
 Pink — #EFDBDB
-Light Green — #687A6D
+Light Green — #41566B
 Orange — #BF8B44
 
 */
@@ -69,7 +69,7 @@ p {
 }
 
 a.btn.btn-primary.btn-lg {
-  background-color: #687A6D;
+  background-color: #41566B;
   border: none;
   border-radius: 0;
   color: white;
@@ -218,23 +218,7 @@ div#logo-img {
 .jumbo-content {
 	padding: 0 10px;
 }
-.jumbotron2 {
-  border: 0;
-	background-color: #687A6D;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
-	font-family: 'Roboto Slab', serif;
-	width: 100%;
-	overflow-x:hidden;
-}
-.jumbotron2 h2 {
-	color:white;
-}
-.jumbotron2 p {
-	color:white;
-}
+
 /* =========================
 
   About Styles
@@ -289,7 +273,7 @@ section#counter-stats {
 
 /*/ end count stats /
 .divider {
-	background-color: #687A6D;
+	background-color: #41566B;
 	margin: 15px 0 15px 0;
 	padding: 20px 0px 20px 0px;
 	text-align: left;
