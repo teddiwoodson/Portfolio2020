@@ -26,7 +26,7 @@
     		        <h2 class="card-title">Hi, I'm Teddi!</h5>
     		        <p class="card-text">My name is Teddi Woodson and I'm actively seeking opportunities to create content in the marketing space. For the past five years, I've worked in a variety of industries to cultivate my skills as a communications professional.</p>
 
-                <p class="card-text"> Most recently, I worked as a Graphic Designer for the Tampa Bay Lightning. While working for the Lightning, I also completed a Master’s program through the University of Florida, where I specialized in Web Design.</p>
+                <p class="card-text"> Most recently, I worked as a Graphic Designer for the Tampa Bay Lightning. During that time, I also completed a Master’s program through the University of Florida, where I specialized in Web Design.</p>
 
                 <p class="card-text"> When I’m not designing or creating, I enjoy watching The Office, going to the beach and trying new foods.</p>
 
