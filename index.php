@@ -38,8 +38,8 @@
 <section>
   <div class="row divider align-items-center">
     <div class="col-md-7">
-      <h2>Experience</h2>
       <div class="container">
+        <h2>Experience</h2>
         <div class="accordion justify-content-center" id="accordionExample">
           <div class="card">
             <div class="card-header" id="headingOne">
@@ -149,8 +149,8 @@
       <img src="<?php echo get_template_directory_uri(); ?>/img/orange.jpg" class="card-img" alt="...">
     </div>
     <div class="col-md-7">
-      <h2>Education</h2>
       <div class="container">
+        <h2>Education</h2>
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">B.S. in Public Relations</h5>
