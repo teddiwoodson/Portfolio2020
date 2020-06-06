@@ -69,13 +69,19 @@
           <div class="card-header" id="headingTwo">
             <h2 class="mb-0">
               <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                Collapsible Group Item #2
+                Marketing and Communications Intern, Center for Arts in Medicine
               </button>
             </h2>
           </div>
           <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
             <div class="card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              <h6 class="card-subtitle mb-2 text-muted">August 2018 - October 2018</h6>
+              <ul class="card-text">
+                <li>Created flyers and posters to promote graduate programs and certification courses offered by the Center</li>
+                <li>Edited pre-recorded video clips to be featured on the Center for Arts in Medicine Facebook and Instagram pages</li>
+                <li>Designed Google AdWords campaigns to promote graduate programs, this resulted in a 20% page click increase</li>
+                <li>Analyzed the effectiveness of current social media content and made recommendations for future posts such as posting more content on students and faculty as they generated more social media interactions</li>
+              </ul>
             </div>
           </div>
           </div>
@@ -83,27 +89,19 @@
           <div class="card-header" id="headingThree">
             <h2 class="mb-0">
               <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                Collapsible Group Item #3
+                Marketing and Communications Intern, FIS Global
               </button>
             </h2>
           </div>
           <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
             <div class="card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
-            </div>
-          </div>
-          </div>
-          <div class="card">
-          <div class="card-header" id="headingFour">
-            <h2 class="mb-0">
-              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                Collapsible Group Item #4
-              </button>
-            </h2>
-          </div>
-          <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-            <div class="card-body">
-              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              <h6 class="card-subtitle mb-2 text-muted">June 2017 - August 2017</h6>
+              <ul class="card-text">
+                <li>Wrote and gathered content for company-wide newsletters that were distributed to 15,000+ employees</li>
+                <li>Researched and analyzed industry competitors social media practices to better understand market competition</li>
+                <li>Recommended changes for the company blog site which resulted in more frequent and targeted blog posts</li>
+                <li>Identified potential publication opportunities to promote new products and upcoming corporate initiatives</li>
+              </ul>
             </div>
           </div>
           </div>
