@@ -30,7 +30,7 @@
 
                 <p class="card-text">Now that I’ve finished my degree, I am looking for new opportunities that will allow me to put my marketing, development and design skills into practice. Feel free to check out my resume, take a look at my work, or send me a message!</p>
 
-                <a href="<?php echo get_template_directory_uri(); ?>/img/resume.jpg" target="_blank" type="button" class="btn btn-primary btn-lg">Download Resume</a>
+                <a href="<?php echo get_template_directory_uri(); ?>/img/resume.jpg" target="_blank" type="button" class="btn btn-primary btn-lg">My Resume</a>
                 <a href="mailto: teddiwoodson@gmail.com" target="_blank" type="button" class="btn btn-primary btn-lg">Get in Touch</a>
     		      </div>
     		    </div>
