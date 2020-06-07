@@ -69,8 +69,7 @@
           </div>
           <div class="card">
           <div class="card-header" id="headingTwo">
-            <h6 class="mb-0">&#9660;
-              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <h6 class="mb-0">&#5121;<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                 Capstone Student
               </button>
             </h6>
