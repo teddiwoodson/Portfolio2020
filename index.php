@@ -59,8 +59,8 @@
               <div class="card-body">
                 <h6 class="card-subtitle mb-2 text-muted">October 2019 - May 2020</h6>
                 <ul class="card-text">
-                  <li>Designed print & digital assets for the Tampa Bay Lightning & affiliate organizations including AMALIE Arena, the University of South Florida & the Yuengling Center</li>
-                  <li>Worked on deadlines to produce collateral such as flyers, web advertisements, animated graphics, & social posts for new & ongoing campaigns</li>
+                  <li>Designed print & digital assets for the Tampa Bay Lightning & affiliate organizations</li>
+                  <li>Created flyers, web advertisements, animated graphics, & social posts for new & ongoing campaigns</li>
                   <li>Collaborated with other departments to create assets for distribution to 600,000+ fans</li>
                   <li>Ensured final graphics & layouts were visually appealing & adhered to brand guidelines</li>
                 </ul>
@@ -102,10 +102,10 @@
             <div class="card-body">
               <h6 class="card-subtitle mb-2 text-muted">August 2018 - October 2018</h6>
               <ul class="card-text">
-                <li>Created flyers and posters to promote graduate programs and certification courses offered by the Center</li>
-                <li>Edited pre-recorded video clips to be featured on the Center for Arts in Medicine Facebook and Instagram pages</li>
-                <li>Designed Google AdWords campaigns to promote graduate programs, this resulted in a 20% page click increase</li>
-                <li>Analyzed the effectiveness of current social media content and made recommendations for future posts such as posting more content on students and faculty as they generated more social media interactions</li>
+                <li>Created flyers & posters to promote graduate programs</li>
+                <li>Edited video clips to be featured on social media accounts</li>
+                <li>Designed Google AdWords campaigns to promote graduate programs which resulted in a 20% page click increase</li>
+                <li>Recommended content for future social media posts to generate more social media interactions</li>
               </ul>
             </div>
           </div>

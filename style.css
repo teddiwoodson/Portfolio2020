@@ -448,8 +448,8 @@ div .card {
 	background-color: #F2EDE1;
 	text-align: left;
 }
-.divider .col-md-7 {
-	padding-right: 0;
+.col-md-7 .container{
+	padding: 15px 0;
 }
 .accordion .card {
 		background-color: #F2EDE1;
