@@ -55,7 +55,7 @@
               <h6 class="card-subtitle mb-2 text-muted">Tampa Bay Lightning</h6>
             </div>
 
-            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
               <div class="card-body">
                 <h6 class="card-subtitle mb-2 text-muted">October 2019 - May 2020</h6>
                 <ul class="card-text">
@@ -98,7 +98,7 @@
             </h6>
             <h6 class="card-subtitle mb-2 text-muted">Center for Arts in Medicine</h6>
           </div>
-          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
             <div class="card-body">
               <h6 class="card-subtitle mb-2 text-muted">August 2018 - October 2018</h6>
               <ul class="card-text">
@@ -119,7 +119,7 @@
             </h6>
             <h6 class="card-subtitle mb-2 text-muted">FIS Global</h6>
           </div>
-          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+          <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
             <div class="card-body">
               <h6 class="card-subtitle mb-2 text-muted">June 2017 - August 2017</h6>
               <ul class="card-text">
