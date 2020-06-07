@@ -8,7 +8,7 @@
           <p class="lead">Designer. Developer. Creator.</p>
           <hr class="my-4">
           <p class="lead">
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+            <a class="btn btn-primary btn-lg" href="#about" role="button">Learn more</a>
           </p>
           </div>
         </div>
