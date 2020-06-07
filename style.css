@@ -465,3 +465,14 @@ button.btn {
 ul.card-text {
     padding: 0px 30px;
 }
+@media only screen and (max-width: 768px) {
+  #experience-body {
+    display: flex;
+  }
+	#experience-order{
+		order: 1;
+	}
+	.divider .col-md-7 {
+    order: 2;
+	}
+}

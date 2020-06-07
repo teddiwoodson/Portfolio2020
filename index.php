@@ -23,7 +23,7 @@
     	    	</div>
     		    <div class="col-md-7">
     		      <div class="card-body">
-    		        <h2 class="card-title">Hi, I'm Teddi!</h5>
+    		        <h2 class="card-title">Hi, I'm Teddi!</h2>
     		        <p class="card-text">I'm an emerging digital content creator currently seeking opportunities to showcase my skills in the marketing space. I believe that each and every one of us has a story to tell and I want be a part of telling those stories through the creation of written, graphic and web-based content.</p>
 
                 <p class="card-text">I recently earned a Master’s Degree in Mass Communication from the University of Florida, where I specialized in web design. While completing my degree I also worked as a Graphic Designer for the Tampa Bay Lightning.</p>
@@ -41,17 +41,17 @@
 <!-- ======================= Experience ==================-->
 
 <section id="experience">
-  <div class="row divider align-items-center">
+  <div class="row divider align-items-center" id="experience-body">
     <div class="col-md-7">
       <div class="container">
         <div class="accordion justify-content-center" id="accordionExample">
           <div class="card">
             <div class="card-header" id="headingOne">
-              <h5 class="mb-0">
+              <h6 class="mb-0">
                 <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                   Graphic Designer
                 </button>
-              </h5>
+              </h6>
               <h6 class="card-subtitle mb-2 text-muted">Tampa Bay Lightning</h6>
             </div>
 
@@ -69,11 +69,11 @@
           </div>
           <div class="card">
           <div class="card-header" id="headingTwo">
-            <h5 class="mb-0">
+            <h6 class="mb-0">
               <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                 Marketing and Communications Intern
               </button>
-            </h5>
+            </h6>
             <h6 class="card-subtitle mb-2 text-muted">Center for Arts in Medicine</h6>
           </div>
           <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
@@ -90,11 +90,11 @@
           </div>
           <div class="card">
           <div class="card-header" id="headingThree">
-            <h5 class="mb-0">
+            <h6 class="mb-0">
               <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                 Marketing and Communications Intern
               </button>
-            </h5>
+            </h6>
             <h6 class="card-subtitle mb-2 text-muted">FIS Global</h6>
           </div>
           <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
@@ -113,7 +113,7 @@
 
       </div>
     </div>
-    <div class="divider-img col-md-5">
+    <div class="divider-img col-md-5" id="experience-order">
       <img src="<?php echo get_template_directory_uri(); ?>/img/experience.jpg" class="card-img" alt="...">
     </div>
   </div>
@@ -151,7 +151,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <h2 class="card-title">My Skills</h5>
+          <h2 class="card-title">My Skills</h2>
             <p class="card-text">I am proficient in HTML, CSS, JavaScript and the Adobe Creative Suite. Over the past few years, I have focused also worked to expand my knowledge of strategic communication, Search Engine Optimization (SEO) and social media marketing.</p>
         </div>
       </div>
