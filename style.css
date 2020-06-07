@@ -127,6 +127,8 @@ div#logo-img {
 }
 .jumbo-content {
 	padding: 0 10px;
+	animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 3s;
 }
 
 /* =========================
