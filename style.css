@@ -474,6 +474,7 @@ ul.card-text {
 	}
 	.divider .col-md-7 {
     order: 2;
+		margin: 20px;
 	}
 }
 .widget-footer-left {
