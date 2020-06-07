@@ -3,7 +3,7 @@
     <!--======================= Header ====================-->
     	<main class="" id="home">
         <div class="jumbotron jumbotron-fluid d-flex justify-content-center align-items-center">
-          <div class="jumbo-content">
+          <div class="jumbo-content animate__animated animate__fadeIn">
           <h1>TEDDI WOODSON</h1>
           <p class="lead">Designer. Developer. Creator.</p>
           <hr class="my-4">
