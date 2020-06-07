@@ -476,3 +476,12 @@ ul.card-text {
     order: 2;
 	}
 }
+.widget-footer-left {
+	color: white;
+}
+.widget-footer-middle {
+	color: white;
+}
+.widget-footer-right {
+	color: white;
+}
