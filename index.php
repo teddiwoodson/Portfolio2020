@@ -135,7 +135,7 @@
       </div>
     </div>
     <div class="divider-img col-md-5" id="experience-order">
-      <img src="<?php echo get_template_directory_uri(); ?>/img/experience.jpg" class="card-img" alt="...">
+      <img src="<?php echo get_template_directory_uri(); ?>/img/experience.png" class="card-img" alt="...">
     </div>
   </div>
 </section>
@@ -182,7 +182,7 @@
 <section>
   <div class="row divider align-items-center">
     <div class="divider-img col-md-5">
-      <img src="<?php echo get_template_directory_uri(); ?>/img/education.jpg" class="card-img" alt="...">
+      <img src="<?php echo get_template_directory_uri(); ?>/img/education.png" class="card-img" alt="...">
     </div>
     <div class="col-md-7">
       <div class="container">
