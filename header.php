@@ -20,6 +20,11 @@
 
   <link rel="shortcut icon"  href="<?php echo get_template_directory_uri(); ?>/img/favicon.png" type="image/png" class="favicon"/>
 
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+  />
+
   <?php wp_head(); ?>
 </head>
 
