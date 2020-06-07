@@ -485,3 +485,6 @@ ul.card-text {
 .widget-footer-right {
 	color: white;
 }
+footer h3 {
+	font-family: 'Playfair Display', serif;
+}
