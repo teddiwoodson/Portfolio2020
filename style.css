@@ -24,6 +24,9 @@ Orange — #BF8B44
 article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
     display:block;
 }
+html {
+  scroll-behavior: smooth;
+}
 body, html {
   overflow-x:hidden;
 }
