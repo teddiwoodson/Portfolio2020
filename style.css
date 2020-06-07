@@ -36,6 +36,10 @@ body, html {
   padding-right: 0;
 	text-align: center;
 }
+.favicon {
+	max-width: 16px;
+	max-height: 16px;
+}
 /* =========================
 
   Reoccuring Styles
