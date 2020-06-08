@@ -13,12 +13,10 @@
           }// this ends if statement
         ?>
         <div class="d-flex justify-content-around">
-
           <div class=""><?php next_post_link( '%link', 'word' ); ?></div>
           <div class=""><?php previous_post_link( '%link', 'word' ); ?></div>
-
-          <a class="btn btn-primary btn-lg" href="<?php echo get_home_url(); ?>">Home</a>
         </div>
+        <a class="btn btn-primary btn-lg" href="<?php echo get_home_url(); ?>">Return Home</a>
         <div>
       </main>
     </div>
