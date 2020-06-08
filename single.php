@@ -8,12 +8,13 @@
               the_post(); ?>
               <h2 class="entry-title"><?php the_title(); ?></h2>
               <?php the_content(); ?>
+
+              <div class="nav-previous alignleft"><?php previous_posts_link( 'Older posts' ); ?></div>
+      <div class="nav-next alignright"><?php next_posts_link( 'Newer posts' ); ?></div>
+      
           <?php  } //this ends while loop
           }// this ends if statement
         ?>
-
-        <div class="nav-previous alignleft"><?php previous_posts_link( 'Older posts' ); ?></div>
-<div class="nav-next alignright"><?php next_posts_link( 'Newer posts' ); ?></div>
 
         <a class="btn btn-primary btn-lg" href="<?php echo get_home_url(); ?>">Return to Home Page</a>
       </main>
