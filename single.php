@@ -14,8 +14,8 @@
         ?>
         <div class="d-flex justify-content-around">
 
-          <div class="btn btn-primary btn-lg" href="<?php previous_post_link('%link'); ?>"></div>
-          <a class="btn btn-primary btn-lg"><?php next_post_link( '%link' ); ?></a>
+          <div class="btn btn-primary btn-lg"><?php next_post_link( '%link' ); ?></div>
+          <div class="btn btn-primary btn-lg"><?php next_post_link( '%link' ); ?></div>
 
           <a class="btn btn-primary btn-lg" href="<?php echo get_home_url(); ?>">Home</a>
         </div>
