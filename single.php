@@ -13,8 +13,8 @@
           }// this ends if statement
         ?>
 
-        <div class="btn btn-primary btn-lg"><?php previous_post_link( 'Older posts' ); ?></div>
-<div class="btn btn-primary btn-lg"><?php next_post_link( 'Newer posts' ); ?></div>
+        <a class="btn btn-primary btn-lg"><?php previous_post_link( 'Older posts' ); ?></a>
+<a class="btn btn-primary btn-lg"><?php next_post_link( 'Newer posts' ); ?></a>
 
         <a class="btn btn-primary btn-lg" href="<?php echo get_home_url(); ?>">Return to Home Page</a>
       </main>
