@@ -382,12 +382,15 @@ figure.effect-ming:hover img {
 ========================= */
 .post h2 {
 	text-align: left;
+	border-bottom: solid 3px #BF8B44;
 }
 .post p {
 	text-align: left;
 }
 .post {
 	margin-top: 100px;
+	background-color: #F2EDE1;
+  padding: 15px;
 }
 /* =========================
 

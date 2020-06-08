@@ -221,8 +221,7 @@
             <a href="<?php the_permalink(); ?>">
               <figure class="effect-ming">
                 <?php  the_post_thumbnail('medium'); ?>
-                <figcaption>
-                  <h2><?php the_title(); ?></h2>
+                <figcaption class="d-flex align-items-center">
                   <p><?php the_excerpt(); ?></p>
                 </figcaption>
               </figure>

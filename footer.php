@@ -3,19 +3,9 @@
     <div class ="container">
       <div class="row">
 
-        <!-- Widget Area: Left Footer -->
-        <div class="col-lg-4 d-flex align-items-center">
-          <?php dynamic_sidebar('footer-left'); ?>
-        </div>
-
         <!-- Widget Area: Middle Footer -->
-        <div class="col-lg-4 d-flex align-items-center">
+        <div class="col-lg-12 d-flex justify-content-center align-items-center">
           <?php dynamic_sidebar('footer-middle'); ?>
-        </div>
-
-        <!-- Widget Area: Right Footer -->
-        <div class="col-lg-4 d-flex align-items-center">
-          <?php dynamic_sidebar('footer-right'); ?>
         </div>
 
       </div>
