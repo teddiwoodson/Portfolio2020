@@ -4,7 +4,7 @@
       <div class="row">
 
         <!-- Widget Area: Middle Footer -->
-        <div class="col-lg-12 d-flex justify-content-center align-items-center">
+        <div class="col-12 d-flex justify-content-center align-items-center">
           <?php dynamic_sidebar('footer-middle'); ?>
         </div>
 
