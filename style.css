@@ -482,6 +482,12 @@ ul.card-text {
     order: 2;
 		margin: 20px;
 	}
+	.post {
+		margin-top: 150px;
+	}
+	.navbar {
+		justify-content: center;
+	}
 }
 .widget-footer-left {
 	color: white;
