@@ -77,7 +77,7 @@
           </div>
           <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
             <div class="card-body">
-              <h6 class="card-subtitle mb-2 text-muted">August 2018 - October 2018</h6>
+              <h6 class="card-subtitle mb-2 text-muted">January 2020 - April 2020</h6>
               <ul class="card-text">
                 <li>Researched the client its competitors to develop realistic communications goals</li>
                 <li>Developed a new brand identity for the client to allow for the site to meet its marketing goals</li>
