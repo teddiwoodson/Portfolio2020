@@ -43,13 +43,13 @@
         <a class="nav-link" href="<?php echo get_home_url();?>">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="http://www.teddiwoodson.com/#about">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#experience">Experience</a>
+        <a class="nav-link" href="http://www.teddiwoodson.com/#experience">Experience</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#work">Portfolio</a>
+        <a class="nav-link" href="http://www.teddiwoodson.com#work">Portfolio</a>
       </li>
     </ul>
   </div>
